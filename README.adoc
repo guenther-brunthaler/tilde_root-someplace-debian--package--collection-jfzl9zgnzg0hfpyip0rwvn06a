@@ -1,0 +1,88 @@
+Re-usable software bundle definitions
+=====================================
+v2020.7
+
+The purpose of this version-controlled branch is to provide a list of
+metapackage definitions for installing sets of related software packages
+that serve a particular combined purpose.
+
+The definitions reside in file `collections.txt` which shall always be
+kept sorted lexicographically according to locale "POSIX".
+
+
+Format Description
+------------------
+
+Every line of text file file `collections.txt` shall use the following format:
+Fields of text separated by colon (`:`) characters.
+
+Field 1:: Name of the metapackage to be defined. At the end of the user-chosen
+metapackage name, a dash (`-`) and a 96-bit hexadecimal identifier in lower
+case shall be added. The hexadecimal identifier shall consist of the first 24
+hex-nybbles of the MD5 hash of the dependencies field (see below).
+
+Field 2:: Revision identifier for the package, starting with `1.0` for the
+first revision. This identifier is used for comparing different revisions of
+the same metapackage, in order to find out which revision is the more recent
+one. Normally, revision `1.0` will be followed by `1.1`, then `1.2` etc. Only
+in case of a fundamental change in the purpose of the package the first
+component number shall be incremented instead (resetting the 2nd number back
+to `0`.)
+
+Field 3:: Metapackage type. There are 2 types: `bundle` is used for software
+suites, themed collections of software packages that the author of the
+metapackage thinks should be installed together. `deps` are software packages
+which need to be installed as prerequisites for manually-built software. For
+instance, when building a program hosted on GitHub, some *-dev packages may
+be required. A `deps`-metapackage can then be defined with the same name as
+the github software, pulling all required build prerequisites as its
+dependencies.
+
+Field 4:: The packages to be pulled in. This field shall have the same syntax
+as the "Depends"-Field in "dpkg -s" output, except that all whitespace shall
+be removed and all ","-separated terms shall be sorted lexicographically
+according to locale "POSIX". Note that a hash of this field will be used to
+obtain the hexadecimal identifier for field # 1, and the sorting helps create
+identical identifiers for identical dependency sets.
+
+
+Usage of the package definitions
+--------------------------------
+
+The entries of the `collections.txt` file can be used in order to create
+actual metapackages using my `dpkg-register-dependencies-as-metapackage`
+script.
+
+For instance, assume $NAME shall be the user-chosen name-part of field # 1,
+$REV shall be the revision identifier from field # 2, and $DEPS shall be the
+contents of field # 4.
+
+Then use the following command in order to create metapackage for metapackages
+where field # 3 is `bundle`:
+
+$ dpkg-register-dependencies-as-metapackage -r $REV $NAME "$DEPS"
+
+Or use the following command in order to create metapackage for metapackages
+where field # 3 is `deps`:
+
+$ dpkg-register-dependencies-as-metapackage -r $REV -m $NAME "$DEPS"
+
+
+Getting the metapackage installation script
+-------------------------------------------
+
+The beformentioned script `dpkg-register-dependencies-as-metapackage` for
+building and installing the actual metadata packages can be found in the
+version-controlled branch `xworld_debian-i7plqrb7887azjcnxws0tsve0`.
+
+Actually, the name prefix of the branch name may have changed - but the suffix
+`i7plqrb7887azjcnxws0tsve0` of the branch name shall always remain the same.
+So search for the suffix if you should be unable to locate the full branch
+name as given here.
+
+The repository containing that other branch should be located in a sibling
+repository where the repository containing THIS file you are currently reading
+is located.
+
+I specifically do not want to give an absolute URL here, because URLs change
+all the time as hosting services come and go.
