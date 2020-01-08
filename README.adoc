@@ -1,6 +1,6 @@
 Re-usable software bundle definitions
 =====================================
-v2020.7.1
+v2020.8
 
 The purpose of this version-controlled branch is to provide a list of
 metapackage definitions for installing sets of related software packages
@@ -61,14 +61,14 @@ Then use the following command in order to create metapackage for metapackages
 where field # 3 is `bundle`:
 
 ----
-$ dpkg-register-dependencies-as-metapackage -r $REV $NAME "$DEPS"
+$ dpkg-register-dependencies-as-metapackage -r $REV -d "$DEPS" $NAME
 ----
 
 Or use the following command in order to create metapackage for metapackages
 where field # 3 is `deps`:
 
 ----
-$ dpkg-register-dependencies-as-metapackage -r $REV -m $NAME "$DEPS"
+$ dpkg-register-dependencies-as-metapackage -r $REV -m -d "$DEPS" $NAME
 ----
 
 
