@@ -1,14 +1,15 @@
-autotools-f279159f625d3fed9078816c:1.0:bundle:autoconf,autoconf-doc,automake,autopoint,gettext,gettext-doc,gnu-standards,libtool,libtool-doc,pkg-config
 asciidoc-d213e14d92e7ab8fcd2992cb:1.0:bundle:asciidoc,asciidoc-doc,asciidoc-fop,epubcheck
+autotools-f279159f625d3fed9078816c:1.0:bundle:autoconf,autoconf-doc,automake,autopoint,gettext,gettext-doc,gnu-standards,libtool,libtool-doc,pkg-config
 brainstorm-dd255b04b0543d423c6196f1:1.0:bundle:python3-brainstorm,python3-pygraphviz
 busybox-832b7d476924c91a1b8129fb:1.0:deps:libncurses5-dev
 caffe-d826136ae8c1ba82d7e7eeef:1.0:bundle:caffe-cpu,caffe-doc
 config-fuse-fs-9a3f1ebf5163812aaa98dec9:1.0:bundle:augeas-doc,augeas-tools
 cropgui-5bde1c52a7f782843b7439d7:1.0:deps:python-glade2,python-gtk2,python-imaging
 debian-rebuild-dpkgs-3badfb8f1f3a86cc7a37a508:1.0:bundle:build-essential,devscripts,fakeroot
-dte-e12d4dc2ce08c6c4dcd03b20:1.1:bundle:fbautostart,fluxbox
+dte-f21e7b21a117164e71e7cfcd:1.2:bundle:fluxbox-687df9a61feb5471ab6b6b63
 eclipse-a56492e0eaa6c7cd4c6e0a29:1.0:bundle:eclipse,eclipse-anyedit,eclipse-cdt-perf,eclipse-cdt-pkg-config,eclipse-cdt-qt,eclipse-cdt-valgrind,eclipse-changelog,eclipse-eclox,eclipse-egit-mylyn,eclipse-emf-examples,eclipse-gef-doc,eclipse-mylyn-context-cdt,eclipse-mylyn-context-pde,eclipse-mylyn-tasks-github,eclipse-mylyn-wikitext,eclipse-wtp-webtools,eclipse-wtp-xsl,eclipse-xsd-sdk
 ffmpeg-24db7c08e5e4017831f7218a:1.0:bundle:ffmpeg,ffmpeg-doc
+fluxbox-687df9a61feb5471ab6b6b63:1.0:fbautostart,fluxbox,xdgmenumaker-7acf2b30019a0f1dc1257259
 freecad-6f47fa2760e163cd192b8002:1.0:bundle:freecad,freecad-doc
 gbosslcrypt-9a2069ed05667a06d73a7fb8:1.0:deps:coreutils,idn|icu-devtools,openssl
 gbosslcrypt-initramfs-478952b76d4863b1406e4d00:1.0:deps:idn,openssl
