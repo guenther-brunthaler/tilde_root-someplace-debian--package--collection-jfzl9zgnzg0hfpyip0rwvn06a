@@ -9,7 +9,7 @@ debian-rebuild-dpkgs-3badfb8f1f3a86cc7a37a508:1.0:bundle:build-essential,devscri
 dte-f21e7b21a117164e71e7cfcd:1.2:bundle:fluxbox-687df9a61feb5471ab6b6b63
 eclipse-a56492e0eaa6c7cd4c6e0a29:1.0:bundle:eclipse,eclipse-anyedit,eclipse-cdt-perf,eclipse-cdt-pkg-config,eclipse-cdt-qt,eclipse-cdt-valgrind,eclipse-changelog,eclipse-eclox,eclipse-egit-mylyn,eclipse-emf-examples,eclipse-gef-doc,eclipse-mylyn-context-cdt,eclipse-mylyn-context-pde,eclipse-mylyn-tasks-github,eclipse-mylyn-wikitext,eclipse-wtp-webtools,eclipse-wtp-xsl,eclipse-xsd-sdk
 ffmpeg-24db7c08e5e4017831f7218a:1.0:bundle:ffmpeg,ffmpeg-doc
-fluxbox-687df9a61feb5471ab6b6b63:1.0:fbautostart,fluxbox,xdgmenumaker-7acf2b30019a0f1dc1257259
+fluxbox-687df9a61feb5471ab6b6b63:1.0:bundle:fbautostart,fluxbox,xdgmenumaker-7acf2b30019a0f1dc1257259
 freecad-6f47fa2760e163cd192b8002:1.0:bundle:freecad,freecad-doc
 gbosslcrypt-9a2069ed05667a06d73a7fb8:1.0:deps:coreutils,idn|icu-devtools,openssl
 gbosslcrypt-initramfs-478952b76d4863b1406e4d00:1.0:deps:idn,openssl
