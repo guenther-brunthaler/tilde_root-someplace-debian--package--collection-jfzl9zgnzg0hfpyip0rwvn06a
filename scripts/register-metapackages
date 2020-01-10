@@ -1,0 +1,68 @@
+#! /bin/sh
+# Feed a list of metapackage names to this script as its standard input. It
+# will invoke the "$helper"-script with appropriate arguments in order to
+# create and install a metapackage with the selected name with parameters
+# taken from file "$database".
+#
+# Version 2020.9
+# Copyright (c) 2020 Guenther Brunthaler. All rights reserved.
+#
+# This script is free software.
+# Distribution is permitted under the terms of the GPLv3.
+
+helper='dpkg-register-dependencies-as-metapackage'
+database='collections.txt'
+
+set -e
+trap 'test $? = 0 || echo "\"$0\" failed!" >& 2' 0
+
+dry_run=false
+while getopts n opt
+do
+	case $opt in
+		n) dry_run=true;;
+		*) false || exit
+	esac
+done
+shift `expr $OPTIND - 1 || :`
+
+test $# = 0
+test -f "$database"
+command -v -- "$helper" > /dev/null
+
+export LC_COLLATE=C
+
+println() {
+	printf '%s\n' "$*"
+}
+
+die() {
+	println "$@" >& 2
+	false || exit
+}
+
+sort -u | join -t : -a 1 - "$database" \
+| while IFS=: read meta rev type deps nothing
+do
+	test "$meta" || die "Empty package name encountered!"
+	pkg=`println "$meta" | sed 's/-[[:xdigit:]]\{24\}$//; t; d'`
+	test "$pkg" != "$meta" && test "$pkg" \
+		|| die "$meta missing 96-bit package ID" \
+			"at the end of its name!"
+	test -z "$nothing" || die "Excess fields for package '$meta'!"
+	test "$deps" || die "No dependencies for package '$meta'!"
+	test "$rev" || die "No revision number for package '$meta'!"
+	case $type in
+		bundle) opt=;;
+		deps) opt=-m;;
+		*) die "Unknown kind '$type' for package '$meta'!"
+	esac
+	set "$helper" -r "$rev" -d "$deps" $opt -- "$pkg"
+	if $dry_run
+	then
+		set echo SIMULATION: "$@"
+	else
+		println "$pkg ($meta)..." >& 2
+	fi
+	"$@" || die "Could not execute >>>$*<<<!"
+done
