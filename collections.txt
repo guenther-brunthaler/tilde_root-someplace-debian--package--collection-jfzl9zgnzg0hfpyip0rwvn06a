@@ -14,6 +14,7 @@ freecad-6f47fa2760e163cd192b8002:1.0:bundle:freecad,freecad-doc
 gbosslcrypt-9a2069ed05667a06d73a7fb8:1.0:deps:coreutils,idn|icu-devtools,openssl
 gbosslcrypt-initramfs-478952b76d4863b1406e4d00:1.0:deps:idn,openssl
 gimp-5191f5abe4262e6193a5adb5:1.0:bundle:gimp,gimp-gap,gimp-gmic,gimp-plugin-registry
+git-d44cf7cccbff6b232c4af5e2:1.0:bundle:git,git2cl,git-doc,git-email,git-gui,gitk,gitweb,patch
 go-b5656ce20f86ed58c397be20:1.1:bundle:gccgo,gccgo-doc,gccgo-go
 hexedit-x11-5a284aea8a51ec61d1424b1b:1.0:bundle:lfhex,wxhexeditor,x86dis
 horde-groupware-2ddab8ef866fc0c32bba8f1c:1.0:bundle:apache2,php-horde-groupware
