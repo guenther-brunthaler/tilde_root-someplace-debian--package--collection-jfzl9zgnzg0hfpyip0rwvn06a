@@ -19,6 +19,7 @@ go-b5656ce20f86ed58c397be20:1.1:bundle:gccgo,gccgo-doc,gccgo-go
 hexedit-x11-5a284aea8a51ec61d1424b1b:1.0:bundle:lfhex,wxhexeditor,x86dis
 horde-groupware-2ddab8ef866fc0c32bba8f1c:1.0:bundle:apache2,php-horde-groupware
 jdk-89138365c020f4ce3dd3d90f:1.0:bundle:default-jdk,default-jdk-doc,icedtea-netx
+krusader-09697da9c56fa51661a03700:1.0:bundle:bzip2,cpio,kate,kde-cli-tools,kdiff3|kompare|xxdiff,keditbookmarks,kio-extras,konsole,krename,krusader,md5deep|cfv,p7zip,unzip,zip
 lasagne-34b161929d0d298faa4ae7f0:1.0:bundle:lasagne-doc,python3-lasagne
 libav-700b4c9a15549ebc17484a5b:1.5:deps:frei0r-plugins-dev,libavresample-dev,libbz2-dev,libfdk-aac-dev,libfontconfig1-dev,libfreetype6-dev,libgsm1-dev,libmp3lame-dev,libopencore-amrnb-dev,libopencore-amrwb-dev,libopencv-dev,libspeex-dev,libtheora-dev,libvdpau-dev,libvo-amrwbenc-dev,libvorbisidec-dev,libvpx-dev,libx264-dev,libx265-dev,libxcb-shm0-dev,libxcb-xfixes0-dev,libxcb1-dev,yasm,zlib1g-dev
 lua-bba6f4557b8d0d842d1e7599:1.0:bundle:lua-any,lua-cliargs,lua-dbi-sqlite3,lua-doc,lua-expat,lua-lpeg,lua-socket,lua-sql-sqlite3,lua5.3
