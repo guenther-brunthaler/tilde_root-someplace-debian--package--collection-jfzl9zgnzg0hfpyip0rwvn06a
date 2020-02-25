@@ -4,7 +4,7 @@
 # create and install a metapackage with the selected name with parameters
 # taken from file "$database".
 #
-# Version 2020.56
+# Version 2020.56.1
 # Copyright (c) 2020 Guenther Brunthaler. All rights reserved.
 #
 # This script is free software.
@@ -76,7 +76,6 @@ do
 		|| die "$meta missing 96-bit package ID" \
 			"at the end of its name!"
 	test -z "$nothing" || die "Excess fields for package '$meta'!"
-	test "$deps" || die "No dependencies for package '$meta'!"
 	test "$rev" || die "No revision number for package '$meta'!"
 	case $type in
 		bundle) opt=;;
