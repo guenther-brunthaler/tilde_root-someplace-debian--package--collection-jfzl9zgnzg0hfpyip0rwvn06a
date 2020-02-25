@@ -1,3 +1,4 @@
+abiword-567b44ca0dde447cf98611b1:1.0:bundle::abiword,abiword-plugin-grammar,fonts-liberation,poppler-utils
 asciidoc-d213e14d92e7ab8fcd2992cb:1.0:bundle:asciidoc,asciidoc-doc,asciidoc-fop,epubcheck
 autotools-f279159f625d3fed9078816c:1.0:bundle:autoconf,autoconf-doc,automake,autopoint,gettext,gettext-doc,gnu-standards,libtool,libtool-doc,pkg-config
 brainstorm-dd255b04b0543d423c6196f1:1.0:bundle:python3-brainstorm,python3-pygraphviz
