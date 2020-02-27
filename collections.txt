@@ -6,6 +6,7 @@ busybox-832b7d476924c91a1b8129fb:1.0:deps:libncurses5-dev
 caffe-d826136ae8c1ba82d7e7eeef:1.0:bundle:caffe-cpu,caffe-doc
 config-fuse-fs-9a3f1ebf5163812aaa98dec9:1.0:bundle:augeas-doc,augeas-tools
 cropgui-2cfdc8f64fbd9e01fae5c18e:1.1:deps:python-glade2,python-gtk2,python-pil
+debdelta-ed0b90bf610d8c8a15b21e6d:1.0:bundle:apt,debdelta,xdelta3
 debian-rebuild-dpkgs-3badfb8f1f3a86cc7a37a508:1.0:bundle:build-essential,devscripts,fakeroot
 dte-f21e7b21a117164e71e7cfcd:1.2:bundle:fluxbox-687df9a61feb5471ab6b6b63
 eclipse-a56492e0eaa6c7cd4c6e0a29:1.0:bundle:eclipse,eclipse-anyedit,eclipse-cdt-perf,eclipse-cdt-pkg-config,eclipse-cdt-qt,eclipse-cdt-valgrind,eclipse-changelog,eclipse-eclox,eclipse-egit-mylyn,eclipse-emf-examples,eclipse-gef-doc,eclipse-mylyn-context-cdt,eclipse-mylyn-context-pde,eclipse-mylyn-tasks-github,eclipse-mylyn-wikitext,eclipse-wtp-webtools,eclipse-wtp-xsl,eclipse-xsd-sdk
