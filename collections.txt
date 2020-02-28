@@ -31,6 +31,7 @@ mozlz4-6c36939937d518d811ca7a18:1.0:deps:liblz4-dev
 netbeans-fe161dd34ee22fe1fba608ec:1.0:bundle:libjoda-convert-java,libjoda-time-java-doc,libswing-layout-java-doc,libswingx-java-doc,netbeans
 pcmanfm-b79b12669e48925906f17e21:1.0:bundle:gnome-icon-theme|oxygen-icon-theme|tango-icon-theme|lxde-icon-theme,libfm-modules,pcmanfm
 pdf-scan-ocr-46f1493eb97854e1409910d3:1.1:bundle:exactimage,gocr,imagemagick,img2pdf,ocrad,ocrmypdf,ocrmypdf-doc,ocrodjvu,pdf2svg,pdfgrep,pdfresurrect,pdfsandwich,pdfshuffler,pdftk,poppler-utils,pstotext|without-pstotext-d41d8cd98f00b204e9800998,qpdf,sane-utils,scantailor,simple-scan,tesseract-ocr,tesseract-ocr-deu,tesseract-ocr-deu-frak|without-tesseract-ocr-deu-frak-d41d8cd98f00b204e9800998,tesseract-ocr-eng,tesseract-ocr-equ|without-tesseract-ocr-equ-d41d8cd98f00b204e9800998,tesseract-ocr-osd,unpaper
+recoll-6ab0e34cdb5b20275125f509:1.0:bundle:antiword,aspell-de,aspell-en,ghostscript,groff,libimage-exiftool-perl,libinotifytools0,poppler-utils,pstotext|without-pstotext-d41d8cd98f00b204e9800998,python-chm,python-lzma,python-mido,python-mutagen,python-rarfile,recoll,unrtf,untex,wv,xdg-utils,xsltproc
 snns-ebe344751cae0c3378defe08:1.3:deps:libxaw7-dev,libxt-dev,tcsh,xaw3dg-dev
 untrunc-01610617ff11b2c48ba24162:1.0:deps:libavcodec-dev,libavformat-dev,libavutil-dev
 vlc-video-gui-de0390f2080fa28ac291fc2b:1.1:bundle:vlc,vlc-plugin-fluidsynth,vlc-plugin-svg
