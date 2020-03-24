@@ -12,7 +12,7 @@ dte-71882287d50640f60f215102:1.4:bundle:fluxbox-33ae9fac4f4b2ca1cd6467e3
 eclipse-a56492e0eaa6c7cd4c6e0a29:1.0:bundle:eclipse,eclipse-anyedit,eclipse-cdt-perf,eclipse-cdt-pkg-config,eclipse-cdt-qt,eclipse-cdt-valgrind,eclipse-changelog,eclipse-eclox,eclipse-egit-mylyn,eclipse-emf-examples,eclipse-gef-doc,eclipse-mylyn-context-cdt,eclipse-mylyn-context-pde,eclipse-mylyn-tasks-github,eclipse-mylyn-wikitext,eclipse-wtp-webtools,eclipse-wtp-xsl,eclipse-xsd-sdk
 ffmpeg-24db7c08e5e4017831f7218a:1.0:bundle:ffmpeg,ffmpeg-doc
 fluxbox-33ae9fac4f4b2ca1cd6467e3:1.2:bundle:adwaita-icon-theme,alsa-utils,fbautostart,fluxbox,gnome-icon-theme,suckless-tools,x11-utils,xdgmenumaker-7acf2b30019a0f1dc1257259,xloadimage
-freecad-76e9cc3c13f5cc616a88b2a8:1.1:bundle:freecad,freecad-doc|without-freecad-doc-d41d8cd98f00b204e9800998
+freecad-3b9dfcbb5723d17efa0bee3f:1.2:bundle:calculix-ccx,freecad,freecad-doc|without-freecad-doc-d41d8cd98f00b204e9800998,freecad-python3|freecad-python2,python-collada
 gbosslcrypt-9a2069ed05667a06d73a7fb8:1.0:deps:coreutils,idn|icu-devtools,openssl
 gbosslcrypt-initramfs-478952b76d4863b1406e4d00:1.0:deps:idn,openssl
 gimp-5191f5abe4262e6193a5adb5:1.0:bundle:gimp,gimp-gap,gimp-gmic,gimp-plugin-registry
