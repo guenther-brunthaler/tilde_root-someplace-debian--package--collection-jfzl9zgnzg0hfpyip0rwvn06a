@@ -21,7 +21,8 @@ go-b5656ce20f86ed58c397be20:1.1:bundle:gccgo,gccgo-doc,gccgo-go
 hexedit-x11-5a284aea8a51ec61d1424b1b:1.0:bundle:lfhex,wxhexeditor,x86dis
 horde-groupware-2ddab8ef866fc0c32bba8f1c:1.0:bundle:apache2,php-horde-groupware
 jdk-89138365c020f4ce3dd3d90f:1.0:bundle:default-jdk,default-jdk-doc,icedtea-netx
-krusader-d89206948672bc79a148f7fd:1.1:bundle:breeze-icon-theme,bzip2,cpio,kate,kde-cli-tools,kdiff3|kompare|xxdiff,keditbookmarks,kio-extras,konsole,krename,krusader,md5deep|cfv,p7zip,unzip,zip
+kate-8a81477a38d82a16d7fd880c:1.0:bundle:cppcheck,exuberant-ctags,kate
+krusader-cd1064df2639bf6f0cf2a0b5:1.2:bundle:breeze-icon-theme,bzip2,cpio,kate-8a81477a38d82a16d7fd880c,kde-cli-tools,kdiff3|kompare|xxdiff,keditbookmarks,kio-extras,konsole,krename,krusader,md5deep|cfv,p7zip,unzip,zip
 lasagne-34b161929d0d298faa4ae7f0:1.0:bundle:lasagne-doc,python3-lasagne
 libav-700b4c9a15549ebc17484a5b:1.5:deps:frei0r-plugins-dev,libavresample-dev,libbz2-dev,libfdk-aac-dev,libfontconfig1-dev,libfreetype6-dev,libgsm1-dev,libmp3lame-dev,libopencore-amrnb-dev,libopencore-amrwb-dev,libopencv-dev,libspeex-dev,libtheora-dev,libvdpau-dev,libvo-amrwbenc-dev,libvorbisidec-dev,libvpx-dev,libx264-dev,libx265-dev,libxcb-shm0-dev,libxcb-xfixes0-dev,libxcb1-dev,yasm,zlib1g-dev
 libreoffice-9e908813f2952e83cfd15a00:1.0:bundle:cups-bsd,default-jre|jre,fonts-crosextra-caladea,fonts-crosextra-carlito,fonts-dejavu,fonts-liberation,fonts-liberation2,fonts-linuxlibertine,fonts-noto-core,fonts-noto-mono,fonts-noto-ui-core,fonts-sil-gentium-basic,hunspell-de-at,hunspell-de-de,hunspell-en-us,hyphen-de,hyphen-en-us,libreoffice,libreoffice-gtk3,libreoffice-help-de,libreoffice-java-common,libreoffice-l10n-de,libreoffice-nlpsolver,libreoffice-report-builder,libreoffice-script-provider-python,mythes-de,mythes-en-us,pstoedit
