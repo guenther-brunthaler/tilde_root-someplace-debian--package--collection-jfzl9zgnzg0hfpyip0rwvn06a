@@ -1,0 +1,79 @@
+#! /bin/sh
+
+# Merge new collection entries specified as a text file argument or read from
+# standard input with $merge_target. Only keeps the most recent revision if
+# multiple revisions are present for a single entry after initial merging.
+#
+# v2025.81
+
+merge_target="collections.txt"
+
+set -e
+cleanup() {
+	rc=$?
+	test "$TF" && rm -- "$TF"
+	$silent || test $rc = 0 || echo "\"$0\" failed!" >& 2
+}
+silent=false
+TF=
+trap cleanup 0
+trap 'exit $?' HUP INT TERM QUIT
+
+preview=false
+while getopts p opt
+do
+	case $opt in
+		p) preview=true;;
+		*) false || exit
+	esac
+done
+shift `expr $OPTIND - 1 || :`
+
+test -f "$merge_target"
+
+emit() {
+	test -z "$last_n" && return
+	printf '%s\n' "$last_n:$last_v:$last_m:$last_d"
+}
+
+process() {
+	LC_COLLATE=C sort -t : -u -k 1,1 -k 2,2n -- - "$merge_target" \
+	| {
+		last_n=
+		while IFS=: read -r n v m d
+		do
+			case $n in
+				"$last_n") ;;
+				*) emit
+			esac
+			last_n=$n last_v=$v last_m=$m last_d=$d
+		done
+		emit
+	} \
+	> "$TF"
+}
+
+TF=`mktemp -- "${TMPDIR:-/tmp}/${0##*/}".XXXXXXXXXX`
+if test $# = 1
+then
+	cat -- "$1" | process
+else
+	test $# = 0
+	process
+fi
+
+if cmp -s -- "$merge_target" "$TF"
+then
+	echo "No new entries detected."
+	silent=true
+	false || exit
+else
+	if $preview
+	then
+		echo "Would update '$merge_target':" >& 2
+		cat -- "$TF"
+	else
+		echo "Updating '$merge_target'"
+		cat -- "$TF" > "$merge_target"
+	fi
+fi
