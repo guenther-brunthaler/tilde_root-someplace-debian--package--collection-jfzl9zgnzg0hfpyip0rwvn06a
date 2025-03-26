@@ -1,0 +1,23 @@
+#! /bin/sh
+
+# Arguments: Any number of extended regular expressions. Will search
+# $collection for any of the regexes and convert the dependencies into the
+# format expected by the "-d" option of
+# "dpkg-register-dependencies-as-metapackage".
+#
+# v2025.85
+collection='collections.txt'
+
+set -e
+trap 'test $? = 0 || echo "\"$0\" failed!" >& 2' 0
+
+test -f "$collection"
+test $# != 0
+
+nl=`printf '\n:'`; nl=${nl%:}
+rexs=
+for rx
+do
+	rexs=$rexs${rexs:+"$nl"}$rx
+done
+grep -E -- "$rx" "$collection" | sed 's/[|,]/& /g; s/|/ &/g'
