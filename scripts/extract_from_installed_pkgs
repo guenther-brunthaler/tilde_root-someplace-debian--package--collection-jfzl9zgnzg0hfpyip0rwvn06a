@@ -1,0 +1,93 @@
+#! /bin/sh
+
+# Generate output in collection format from all packages locally installed[1~
+# with "dpkg-register-dependencies-as-metapackage" (or such packages extracted
+# with "dpkg-repack" and then reinstalled with "dpkg -i").
+#
+# v2025.295
+root=/
+pkglist=${root%/}/var/lib/dpkg/status
+
+set -e
+trap 'test $? = 0 || echo "\"$0\" failed!" >& 2' 0
+
+while getopts r: opt
+do
+	case $opt in
+		r) root=$OPTARG; test "${root#/}" != "$root";;
+		*) false || exit
+	esac
+done
+shift `expr $OPTIND - 1 || :`
+
+test -d "$root"
+pkglist=${root%/}/var/lib/dpkg/status
+test -f "$pkglist"
+
+LC_COLLATE=C awk -f /dev/fd/5 5<< '=====' "$pkglist" \
+| LC_COLLATE=C sort -t : -u -k 1,1 -k 2,2n
+	# sharing-m81trkjg1g42fl8fhtqs379wm-sect1-begin
+	/^Package:/ {emit()}
+
+	/^[[:alnum:]]+:/ {set_attr()}
+
+	END {emit()}
+
+	function set_attr(    k) {
+		k = $1
+		sub(":$", "", k)
+		$1 = ""
+		a[k] = trim($0)
+	}
+
+	function emit(    i) {
+		# sharing-m81trkjg1g42fl8fhtqs379wm-sect1-end
+		if ( \
+			a["Provides"] != "meta-03e4d2fe9e3b11e88c3db827" \
+			|| a["Package"] !~ /-[0-9a-f]{24}$/ \
+		) {
+			return
+		}
+		# sharing-m81trkjg1g42fl8fhtqs379wm-sect2-begin
+		if (a["Package"] == "") return
+		a["Depends"] = sort_depends(a["Depends"])
+		print a["Package"] ":" a["Version"] ":" ( \
+			a["Description"] ~ "manually.installed" \
+			? "deps" \
+			: "bundle" \
+		) ":" a["Depends"]
+		for (i in a) a[i] = ""
+	}
+
+	function trim(x) {
+		sub("[[:space:]]+", " ", x)
+		sub("^ ", "", x)
+		sub(" $", "", x)
+		return x
+	}
+	
+	function sort_depends(deps    , a, n, i) {
+		gsub("[[:space:]]+", "", deps)
+		n = split(deps, a, ",")
+		gnomesort(a, 1, n)
+		deps = ""
+		for (i = 1; i <= n; ++i) deps = deps "," a[i]
+		sub("^,", "", deps)
+		return deps
+	}
+	
+	function gnomesort(array, low, high    , i, t) {
+		i = low
+		while (i < high) {
+			if ("x" array[i] <= "x" array[i + 1]) {
+				++i
+			} else {
+				t = array[i]
+				array[i] = array[i + 1]
+				array[i + 1] = t
+				if (i > low) --i; else ++i
+			}
+		}
+	}
+	# sharing-m81trkjg1g42fl8fhtqs379wm-sect2-end
+=====
