@@ -4,8 +4,8 @@
 # create and install a metapackage with the selected name with parameters
 # taken from file "$database".
 #
-# Version 2020.56.1
-# Copyright (c) 2020 Guenther Brunthaler. All rights reserved.
+# Version 2025.295
+# Copyright (c) 2020-2025 Guenther Brunthaler. All rights reserved.
 #
 # This script is free software.
 # Distribution is permitted under the terms of the GPLv3.
@@ -41,23 +41,35 @@ die() {
 	false || exit
 }
 
-sort -u | join -t : -a 1 - "$database" \
+sort -cut : -- "$database"
+sort -ut : | join -t : -a 1 - "$database" \
 | while IFS=: read meta rev type deps nothing
 do
+	# Split dependencies into sets of alternatives.
 	println "$deps" | tr , '\n' \
 	| while IFS= read alts
 	do
+		# Split sets of alternatives into contained alternatives.
 		println "$alts" | tr '|' '\n' \
 		| sed '/^[-+_.[:alnum:]]\{1,\}-[[:xdigit:]]\{24\}$/ !d' \
 		| while IFS= read alt
 		do
+			# Emit ordering specifications so that dependencies
+			# which are $database entries precede the package
+			# containing those depencencies.
 			println "$alt $meta"
 		done
+		# Emit a redundant ordering specification for the current
+		# itself as the last specification.
 		println "$meta $meta"
 	done
 done \
 | tsort \
 | {
+	# The requested packages including their dependencies from $database
+	# have been sorted in the order in which they need to be installed.
+	# Add an integer counter after the metapackage name which reflects
+	# that installation order.
 	i=1
 	while read meta
 	do
@@ -65,14 +77,16 @@ done \
 		i=`expr $i + 1`
 	done
 } \
-| sort -u | join -t : -a 1 - "$database" \
+| sort -ut : | join -t : -a 1 - "$database" \
 | sort -t : -k 2,2n \
 | cut -d : -f 1,3- \
 | while IFS=: read meta rev type deps nothing
 do
+	# The requested entries from the collection, augmented by their
+	# dependencies, are being read in the order in which they shall be
+	# installed.
 	test "$meta" || die "Empty package name encountered!"
-	pkg=`println "$meta" | sed 's/-[[:xdigit:]]\{24\}$//; t; d'`
-	test "$pkg" != "$meta" && test "$pkg" \
+	expr x"$meta" : x'.*-[0-9a-f]\{24\}$' > /dev/null \
 		|| die "$meta missing 96-bit package ID" \
 			"at the end of its name!"
 	test -z "$nothing" || die "Excess fields for package '$meta'!"
@@ -82,12 +96,12 @@ do
 		deps) opt=-m;;
 		*) die "Unknown kind '$type' for package '$meta'!"
 	esac
-	set "$helper" -r "$rev" -d "$deps" $opt -- "$pkg"
+	set "$helper" -r "$rev" -d "$deps" $opt -- "$meta"
 	if $dry_run
 	then
 		set echo SIMULATION: "$@"
 	else
-		println "$pkg ($meta)..." >& 2
+		println "$meta..." >& 2
 	fi
 	"$@" || die "Could not execute >>>$*<<<!"
 done
