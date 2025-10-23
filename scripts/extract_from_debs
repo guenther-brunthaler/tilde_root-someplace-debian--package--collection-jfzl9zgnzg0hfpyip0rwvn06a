@@ -3,7 +3,7 @@
 # Generate output in collection format from a list of *.deb files specified
 # as arguments or read from standard input.
 #
-# v2025.295
+# v2025.296
 
 set -e
 trap 'test $? = 0 || echo "\"$0\" failed!" >& 2' 0
@@ -40,17 +40,23 @@ process() {
 			a[k] = trim($0)
 		}
 
+		function reset(    i) {
+			for (i in a) a[i] = ""
+		}
+
 		function emit(    i) {
 			# sharing-m81trkjg1g42fl8fhtqs379wm-sect1-end
 			# sharing-m81trkjg1g42fl8fhtqs379wm-sect2-begin
-			if (a["Package"] == "") return
+			if (a["Package"] == "") {
+				reset(); return
+			}
 			a["Depends"] = sort_depends(a["Depends"])
 			print a["Package"] ":" a["Version"] ":" ( \
 				a["Description"] ~ "manually.installed" \
 				? "deps" \
 				: "bundle" \
 			) ":" a["Depends"]
-			for (i in a) a[i] = ""
+			reset()
 		}
 
 		function trim(x) {

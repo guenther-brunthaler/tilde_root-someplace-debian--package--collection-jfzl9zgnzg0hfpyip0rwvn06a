@@ -4,7 +4,7 @@
 # with "dpkg-register-dependencies-as-metapackage" (or such packages extracted
 # with "dpkg-repack" and then reinstalled with "dpkg -i").
 #
-# v2025.295
+# v2025.296
 root=/
 pkglist=${root%/}/var/lib/dpkg/status
 
@@ -40,23 +40,29 @@ LC_COLLATE=C awk -f /dev/fd/5 5<< '=====' "$pkglist" \
 		a[k] = trim($0)
 	}
 
+	function reset(    i) {
+		for (i in a) a[i] = ""
+	}
+
 	function emit(    i) {
 		# sharing-m81trkjg1g42fl8fhtqs379wm-sect1-end
 		if ( \
 			a["Provides"] != "meta-03e4d2fe9e3b11e88c3db827" \
 			|| a["Package"] !~ /-[0-9a-f]{24}$/ \
 		) {
-			return
+			reset(); return
 		}
 		# sharing-m81trkjg1g42fl8fhtqs379wm-sect2-begin
-		if (a["Package"] == "") return
+		if (a["Package"] == "") {
+			reset(); return
+		}
 		a["Depends"] = sort_depends(a["Depends"])
 		print a["Package"] ":" a["Version"] ":" ( \
 			a["Description"] ~ "manually.installed" \
 			? "deps" \
 			: "bundle" \
 		) ":" a["Depends"]
-		for (i in a) a[i] = ""
+		reset()
 	}
 
 	function trim(x) {
