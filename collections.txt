@@ -24,7 +24,7 @@ cli-calculators-c8bbe7bb70799ebf08de379e:1.0:bundle:bc,maxima|without-maxima-d41
 clisp-f0d9c03a3a468872abc6a1a1:1.0:bundle:clisp,clisp-doc,clisp-module-clx,clisp-module-gdbm,clisp-module-pcre,clisp-module-zlib
 config-fuse-fs-9a3f1ebf5163812aaa98dec9:1.0:bundle:augeas-doc,augeas-tools
 cpu-microcode-87c64541840d77033f49c45e:1.0:bundle:amd64-microcode|without-amd-cpu-d41d8cd98f00b204e9800998,intel-microcode|without-intel-cpu-d41d8cd98f00b204e9800998
-cropgui-554e3c0b7f33937ecff91f10:1.2:deps:imagemagick,libimage-exiftool-perl,libjpeg-turbo-progs,python3,python3-pil,python3-pil.imagetk
+cropgui-554e3c0b7f33937ecff91f10:1.3:deps:imagemagick-dc2394056880d05018465d41,libimage-exiftool-perl,libjpeg-turbo-progs,python3,python3-pil,python3-pil.imagetk
 crossbuild-on-amd64-4b4d7ca85438a1fff3ef662b:1.0:bundle:crossbuild-essential-arm64,crossbuild-essential-armhf,crossbuild-essential-i386
 crossbuild-on-armhf-0a923a6923a7c109dd0b8074:1.0:bundle:crossbuild-essential-amd64,crossbuild-essential-arm64,crossbuild-essential-i386
 database-utils-82874b941cc4999828638553:1.0:bundle:sqlite3,sqlitebrowser
@@ -39,6 +39,7 @@ desktop-calculators-3041af9d99b3d7e9e4d05544:1.1:bundle:qalculate-gtk,qalculate-
 desktop-utils-52ed00953fc29aac8ce2e5a0:1.1:bundle:l3afpad|leafpad|mousepad|kwrite|gedit,on-screen-keyboard-db0d6635eec54d37002b8be1,qasmixer,suckless-tools,x11-utils,xaos,xfce4-taskmanager,xzoom|x11-apps
 devices-ba683709ed0194655123a55b:1.1:bundle:hwdata
 dia-e42818b219672d63eefc6e5a:1.0:bundle:dia,dia-shapes,gsfonts-x11
+dictd-01a48ce55f1e35f7d7d05384:1.0:bundle:dict,dict-bouvier|without-dict-bouvier-d41d8cd98f00b204e9800998,dict-de-en,dict-devil,dict-elements,dict-foldoc,dict-freedict-deu-eng,dict-freedict-eng-deu,dict-gcide,dict-jargon,dict-moby-thesaurus|without-dict-moby-thesaurus-d41d8cd98f00b204e9800998,dict-vera,dict-wn,dictd
 djvu-efadb816d2c1973d96f6ceef:1.1:bundle:djview,djvubind,djvulibre-desktop,djvuserve,minidjvu,pdf2djvu,python-djvu-doc,python3-djvu
 doom1-6311056783f6071ffd3fe1a0:1.1:bundle:crispy-doom,doom-wad-shareware,eureka
 doom2-6311056783f6071ffd3fe1a0:1.1:bundle:doom1-6311056783f6071ffd3fe1a0
@@ -90,6 +91,7 @@ hexedit-x11-5a284aea8a51ec61d1424b1b:1.1:bundle:wxhexeditor,x86dis
 hexen-6311056783f6071ffd3fe1a0:1.0:bundle:crispy-doom,doom-wad-shareware
 horde-groupware-2ddab8ef866fc0c32bba8f1c:1.0:bundle:apache2,php-horde-groupware
 ical-build-fe42c9a1d1e60b823e61653f:1.0:deps:tcl8.6,tcl8.6-dev,tk8.6,tk8.6-dev
+imagemagick-dc2394056880d05018465d41:1.0:bundle:imagemagick,librsvg2-bin
 imgview-edaecec2c356ccfd6372d925:1.2:bundle:geeqie,gpicview,heif-gdk-pixbuf,phototonic,xloadimage
 initramfs-comfort-1e16894e4dbfea70a37b4757:1.2:bundle:clex,cryptsetup,cryptsetup-initramfs,dropbear-initramfs,gbosslcrypt-initramfs-478952b76d4863b1406e4d00,initramfs-tools,lvm2,mdadm,nbd-client,ne,qemu-utils,screen
 inkscape-777c658b4c2f5974edc497be:1.1:bundle:fig2dev,inkscape,inkscape-tutorials,libwmf-bin,python3-scour
@@ -105,7 +107,7 @@ last-2b28b2e00a6d7178da00b17c:1.0:bundle:libpam-wtmpdb,wtmpdb
 lastlog-61ce23ab0d69c8b7505ed110:1.0:bundle:lastlog2,libpam-lastlog2
 ldap-acf4e4b45c7d09dce6aeedbd:1.0:bundle:cpu,ldap-utils,ldapvi,libnss-ldap,libpam-ldap,shelldap
 libav-700b4c9a15549ebc17484a5b:1.5:deps:frei0r-plugins-dev,libavresample-dev,libbz2-dev,libfdk-aac-dev,libfontconfig1-dev,libfreetype6-dev,libgsm1-dev,libmp3lame-dev,libopencore-amrnb-dev,libopencore-amrwb-dev,libopencv-dev,libspeex-dev,libtheora-dev,libvdpau-dev,libvo-amrwbenc-dev,libvorbisidec-dev,libvpx-dev,libx264-dev,libx265-dev,libxcb-shm0-dev,libxcb-xfixes0-dev,libxcb1-dev,yasm,zlib1g-dev
-libreoffice-146196d925b634d9be1a263f:1.4:bundle:cups-bsd,default-jre|jre,fonts-crosextra-caladea,fonts-crosextra-carlito,fonts-dejavu,fonts-liberation,fonts-liberation-sans-narrow,fonts-liberation2,fonts-linuxlibertine,fonts-noto-core,fonts-noto-extra,fonts-noto-mono,fonts-noto-ui-core,fonts-sil-gentium-basic,ghostscript,gnupg,gpa|without-gpa-d41d8cd98f00b204e9800998,gstreamer1.0-libav,gstreamer1.0-plugins-bad,gstreamer1.0-plugins-base,gstreamer1.0-plugins-good,gstreamer1.0-plugins-ugly,hunspell-de-at,hunspell-de-de,hunspell-en-us,hyphen-de,hyphen-en-us,imagemagick,libreoffice,libreoffice-gtk3,libreoffice-help-de,libreoffice-l10n-de,libreoffice-librelogo,libreoffice-nlpsolver|without-libreoffice-nlpsolver-d41d8cd98f00b204e9800998,libreoffice-report-builder|without-libreoffice-report-builder-d41d8cd98f00b204e9800998,libreoffice-script-provider-python,libreoffice-sdbc-firebird,libreoffice-sdbc-postgresql,libsane1,mythes-de,mythes-en-us,openclipart-libreoffice,pstoedit,python3-access2base,unixodbc
+libreoffice-146196d925b634d9be1a263f:1.5:bundle:cups-bsd,default-jre|jre,fonts-crosextra-caladea,fonts-crosextra-carlito,fonts-dejavu,fonts-liberation,fonts-liberation-sans-narrow,fonts-liberation2,fonts-linuxlibertine,fonts-noto-core,fonts-noto-extra,fonts-noto-mono,fonts-noto-ui-core,fonts-sil-gentium-basic,ghostscript,gnupg,gpa|without-gpa-d41d8cd98f00b204e9800998,gstreamer1.0-libav,gstreamer1.0-plugins-bad,gstreamer1.0-plugins-base,gstreamer1.0-plugins-good,gstreamer1.0-plugins-ugly,hunspell-de-at,hunspell-de-de,hunspell-en-us,hyphen-de,hyphen-en-us,imagemagick-dc2394056880d05018465d41,libreoffice,libreoffice-gtk3,libreoffice-help-de,libreoffice-l10n-de,libreoffice-librelogo,libreoffice-nlpsolver|without-libreoffice-nlpsolver-d41d8cd98f00b204e9800998,libreoffice-report-builder|without-libreoffice-report-builder-d41d8cd98f00b204e9800998,libreoffice-script-provider-python,libreoffice-sdbc-firebird,libreoffice-sdbc-postgresql,libsane1,mythes-de,mythes-en-us,openclipart-libreoffice,pstoedit,python3-access2base,unixodbc
 lightning-0244c1a23c5bba1af099f5f8:1.1:bundle:lightning-l10n-de,thunderbird-5993a4cb07863b81574a56f1,webext-dav4tbsync,xul-ext-timeline
 lighttpd-b6af30ddcec7ed152a733af0:1.2:bundle:lighttpd,lighttpd-doc,lighttpd-mod-authn-pam,lighttpd-mod-authn-sasl,lighttpd-mod-deflate,lighttpd-mod-magnet,lighttpd-mod-openssl,lighttpd-mod-webdav,lighttpd-modules-lua,memcached
 llama-cpp-431fd48d919935ebcd7811c5:1.1:deps:bash,c-compiler,cmake,jq
@@ -133,7 +135,7 @@ openssl-build-ce7bc9d7923f5d13b1c7b788:1.0:deps:bc,debhelper,dpkg-dev,m4
 parsing-92fe86b695d512b864ed436d:1.0:bundle:antlr3,bison,flex,lemon
 pcmanfm-b79b12669e48925906f17e21:1.0:bundle:gnome-icon-theme|oxygen-icon-theme|tango-icon-theme|lxde-icon-theme,libfm-modules,pcmanfm
 pdf-crop-dcbd61185a69ad41f7832786:1.2:deps:libpodofo-utils,python3-pypdf
-pdf-scan-ocr-46f1493eb97854e1409910d3:1.5:bundle:exactimage,gocr,imagemagick,img2pdf,ocrad,ocrmypdf,ocrmypdf-doc,pdf2svg,pdfgrep,pdfresurrect,pdfsandwich,pdfshuffler|pdfarranger,pdftk,pngquant,poppler-utils,pstotext|without-pstotext-d41d8cd98f00b204e9800998,qpdf,sane-utils,simple-scan,tesseract-ocr-548664ff06157fe210d4fb27,unpaper
+pdf-scan-ocr-46f1493eb97854e1409910d3:1.5:bundle:exactimage,gocr,imagemagick-dc2394056880d05018465d41,img2pdf,ocrad,ocrmypdf,ocrmypdf-doc,pdf2svg,pdfgrep,pdfresurrect,pdfsandwich,pdfshuffler|pdfarranger,pdftk,pngquant,poppler-utils,pstotext|without-pstotext-d41d8cd98f00b204e9800998,qpdf,sane-utils,simple-scan,tesseract-ocr-548664ff06157fe210d4fb27,unpaper
 pdf417decode-fbbf55febd9701eea8b1e216:1.0:deps:libnetpbm11
 pekwm-603032f95462b6e2013a1d2f:1.0:bundle:pekwm,zenity
 phototonic-91e41d6f29b2f63486db713c:1.0:deps:libexiv2-dev,libqt5svg5-dev,qt5-image-formats-plugins,qtchooser
@@ -180,6 +182,8 @@ wine-0d99eb92575ffe1b422d4fca:1.0:bundle:ttf-mscorefonts-installer,wine
 without-amd-cpu-d41d8cd98f00b204e9800998:1.0:bundle:
 without-amd-gpu-d41d8cd98f00b204e9800998:1.0:bundle:
 without-desktop-d41d8cd98f00b204e9800998:1.0:bundle:
+without-dict-bouvier-d41d8cd98f00b204e9800998:1.0:bundle:
+without-dict-moby-thesaurus-d41d8cd98f00b204e9800998:1.0:bundle:
 without-doom3-data-d41d8cd98f00b204e9800998:1.0:bundle:
 without-freecad-doc-d41d8cd98f00b204e9800998:1.0:bundle:
 without-fs-uae-launcher-d41d8cd98f00b204e9800998:1.0:bundle:
