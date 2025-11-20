@@ -18,7 +18,7 @@ c-debugging-44cd17bd92ef304e5530fd08:1.1:bundle:gdb,gdb-doc|without-gdb-doc-d41d
 caffe-d826136ae8c1ba82d7e7eeef:1.0:bundle:caffe-cpu,caffe-doc
 calculators-1ca688eb30b3563dda451908:1.0:bundle:cli-calculators-c8bbe7bb70799ebf08de379e,desktop-calculators-3041af9d99b3d7e9e4d05544|without-desktop-d41d8cd98f00b204e9800998
 chromium-e75b7b32adeb35e2658722c5:1.0:bundle:chromium,chromium-driver,chromium-l10n,chromium-sandbox,chromium-shell,notification-daemon,rpi-chromium-mods
-cinnamon-2cceeca71d2e6b34e84ec9bf:1.1:bundle:cheese,cinnamon-desktop-environment,cinnamon-doc,cinnamon-l10n,exfatprogs,fonts-noto-cjk,fonts-noto-cjk-extra,fonts-noto-color-emoji,fonts-noto-extra,fonts-noto-ui-extra,fonts-noto-unhinted,gnome-characters,gnome-disk-utility,gnome-font-viewer,gnome-games,gnome-sound-recorder,gnome-system-monitor,gnome-terminal,gnote,libblockdev-crypto3,nemo-fileroller,udisks2-btrfs,udisks2-lvm2,yelp
+cinnamon-2cceeca71d2e6b34e84ec9bf:1.2:bundle:cheese,cinnamon-doc,cinnamon-l10n,exfatprogs,fonts-noto-cjk,fonts-noto-cjk-extra,fonts-noto-color-emoji,fonts-noto-extra,fonts-noto-ui-extra,fonts-noto-unhinted,gnome-characters,gnome-disk-utility,gnome-font-viewer,gnome-games,gnome-sound-recorder,gnome-system-monitor,gnome-terminal,gnote,libblockdev-crypto3,nemo-fileroller,task-cinnamon-desktop,task-german,udisks2-btrfs,udisks2-lvm2,yelp
 claws-846c0613b2ccd7a9d264513a:1.2:bundle:claws-mail-bogofilter,claws-mail-doc,claws-mail-extra-plugins,claws-mail-i18n,claws-mail-tools,db5.3-util
 cli-calculators-c8bbe7bb70799ebf08de379e:1.0:bundle:bc,maxima|without-maxima-d41d8cd98f00b204e9800998,qalc
 clisp-f0d9c03a3a468872abc6a1a1:1.0:bundle:clisp,clisp-doc,clisp-module-clx,clisp-module-gdbm,clisp-module-pcre,clisp-module-zlib
