@@ -110,7 +110,7 @@ libav-700b4c9a15549ebc17484a5b:1.5:deps:frei0r-plugins-dev,libavresample-dev,lib
 libreoffice-146196d925b634d9be1a263f:1.5:bundle:cups-bsd,default-jre|jre,fonts-crosextra-caladea,fonts-crosextra-carlito,fonts-dejavu,fonts-liberation,fonts-liberation-sans-narrow,fonts-liberation2,fonts-linuxlibertine,fonts-noto-core,fonts-noto-extra,fonts-noto-mono,fonts-noto-ui-core,fonts-sil-gentium-basic,ghostscript,gnupg,gpa|without-gpa-d41d8cd98f00b204e9800998,gstreamer1.0-libav,gstreamer1.0-plugins-bad,gstreamer1.0-plugins-base,gstreamer1.0-plugins-good,gstreamer1.0-plugins-ugly,hunspell-de-at,hunspell-de-de,hunspell-en-us,hyphen-de,hyphen-en-us,imagemagick-dc2394056880d05018465d41,libreoffice,libreoffice-gtk3,libreoffice-help-de,libreoffice-l10n-de,libreoffice-librelogo,libreoffice-nlpsolver|without-libreoffice-nlpsolver-d41d8cd98f00b204e9800998,libreoffice-report-builder|without-libreoffice-report-builder-d41d8cd98f00b204e9800998,libreoffice-script-provider-python,libreoffice-sdbc-firebird,libreoffice-sdbc-postgresql,libsane1,mythes-de,mythes-en-us,openclipart-libreoffice,pstoedit,python3-access2base,unixodbc
 lightning-0244c1a23c5bba1af099f5f8:1.1:bundle:lightning-l10n-de,thunderbird-5993a4cb07863b81574a56f1,webext-dav4tbsync,xul-ext-timeline
 lighttpd-b6af30ddcec7ed152a733af0:1.2:bundle:lighttpd,lighttpd-doc,lighttpd-mod-authn-pam,lighttpd-mod-authn-sasl,lighttpd-mod-deflate,lighttpd-mod-magnet,lighttpd-mod-openssl,lighttpd-mod-webdav,lighttpd-modules-lua,memcached
-llama-cpp-431fd48d919935ebcd7811c5:1.1:deps:bash,c-compiler,cmake,jq
+llama-cpp-431fd48d919935ebcd7811c5:1.2:deps:bash,c-compiler,cmake,jq,ninja-build
 llvm-build-86f527e5032849b4e50e832e:1.0:deps:cmake,doxygen,ninja-build,python3-sphinx,python3-sphinx-rtd-theme,sphinx-doc
 lsh-build-ca7f15fb653a67750436b9ab:1.0:deps:automake,debhelper,dh-autoreconf,dpkg-dev,libgmp-dev,libkrb5-dev,liboop-dev,libpam0g-dev,libreadline-dev,libwrap0-dev,libxau-dev,m4,nettle-bin,nettle-dev,texinfo,zlib1g-dev
 lua-bba6f4557b8d0d842d1e7599:1.0:bundle:lua-any,lua-cliargs,lua-dbi-sqlite3,lua-doc,lua-expat,lua-lpeg,lua-socket,lua-sql-sqlite3,lua5.3
@@ -152,6 +152,7 @@ qt-quick-3e7536f1d0a9e1d072cfe4ac:1.0:bundle:clang-tidy,gdb,make,qml-qt6,qt6-bas
 quake-d40a56a36ff6247e016aec88:1.1:bundle:quake,quake-registered|without-quake-registered-d41d8cd98f00b204e9800998
 quake2-d4f227c438145a04f8eb37fa:1.2:bundle:quake2,quake2-full-data|without-quake2-full-data-d41d8cd98f00b204e9800998,yamagi-quake2
 recoll-6ab0e34cdb5b20275125f509:1.2:bundle:antiword,aspell-de,aspell-en,djvulibre-bin,ghostscript,groff,libimage-exiftool-perl,libinotifytools0,poppler-utils,pstotext|without-pstotext-d41d8cd98f00b204e9800998,python3-chardet,python3-chm,python3-icalendar,python3-lxml,python3-mido,python3-mutagen,python3-py7zr,python3-rarfile,recollcmd,unrtf,untex,wv,xdg-utils,xsltproc
+rust-dev-c2f6a666d7bf981917d5048c:1.0:bundle:cargo,cargo-doc
 scantailor-build-94d79bfcb6468cfe075bb956:1.2:deps:cmake,g++,gcc,libboost-test-dev,libjpeg-dev,libpng-dev,libpthread-stubs0-dev,libqt6opengl6-dev,libtiff-dev,qt6-svg-dev,qt6-tools-dev,qt6-tools-dev-tools
 scantailor-missing-d41d8cd98f00b204e9800998:1.0:bundle:
 sci-py-4f29811fcaab097d2b9b3d26:1.1:bundle:python-scipy-doc,python3-numpydoc,python3-scipy
@@ -167,6 +168,7 @@ stitching-33e973c8d98f741820c7df50:1.1:bundle:libpano13-dev,opencv-doc,python3-o
 tageditor-5084157272a338e4b7b968a2:1.0:deps:qtdeclarative5-dev,qtwebengine5-dev
 tesseract-ocr-548664ff06157fe210d4fb27:1.0:bundle:tesseract-ocr,tesseract-ocr-deu,tesseract-ocr-deu-frak|without-tesseract-ocr-deu-frak-d41d8cd98f00b204e9800998,tesseract-ocr-eng,tesseract-ocr-equ|without-tesseract-ocr-equ-d41d8cd98f00b204e9800998,tesseract-ocr-frk,tesseract-ocr-osd,tesseract-ocr-script-frak
 thunderbird-5993a4cb07863b81574a56f1:1.0:bundle:fonts-lyx,hunspell-de-at,hunspell-de-de,hunspell-en-us,thunderbird-l10n-de
+thunderbird-90a4a6d4ad682ea8f467ff60:1.0:bundle:birdtray,hunspell-de-at,hunspell-de-de,thunderbird-l10n-de,webext-mailmindr,webext-quicktext
 uae-amiga-emulator-228a979ec442853d3fdea0d3:1.2:bundle:fs-uae-arcade,fs-uae-launcher|without-fs-uae-launcher-d41d8cd98f00b204e9800998
 untrunc-ffb255e70aa56b180d498512:1.0:deps:libavcodec-dev,libavformat-dev,libavutil-dev
 vde2-32307e71ee36e43f729453cd:1.0:deps:cdbs,debhelper,dh-autoreconf,libpcap-dev,libssl-dev,quilt

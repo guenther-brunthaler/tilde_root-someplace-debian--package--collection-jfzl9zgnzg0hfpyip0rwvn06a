@@ -1,10 +1,11 @@
 #! /bin/sh
-# Feed a list of metapackage names to this script as its standard input. It
-# will invoke the "$helper"-script with appropriate arguments in order to
-# create and install a metapackage with the selected name with parameters
-# taken from file "$database".
+
+# Feed a list of metapackage names (or lines from $database) to this script as
+# its standard input. It will invoke the "$helper"-script with appropriate
+# arguments in order to create and install a metapackage with the selected
+# name with parameters taken from file "$database".
 #
-# Version 2025.295
+# Version 2025.324
 # Copyright (c) 2020-2025 Guenther Brunthaler. All rights reserved.
 #
 # This script is free software.
@@ -42,7 +43,7 @@ die() {
 }
 
 sort -cut : -- "$database"
-sort -ut : | join -t : -a 1 - "$database" \
+cut -d : -f 1 | sort -ut : | join -t : -a 1 - "$database" \
 | while IFS=: read meta rev type deps nothing
 do
 	# Split dependencies into sets of alternatives.
