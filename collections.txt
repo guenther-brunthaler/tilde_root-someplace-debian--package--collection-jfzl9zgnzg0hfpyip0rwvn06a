@@ -4,7 +4,7 @@ amd-gpu-9b258da1f21055767e513d9f:1.0:bundle:firmware-amd-graphics,rickslab-gpu-u
 amd-gpu-dev-746c16ab1fa11227a5caf513:1.0:bundle:amd-gpu-9b258da1f21055767e513d9f,librocm-smi-dev,rocm-smi
 android-f7925a685cc0ccb21e5c120c:1.2:bundle:adb,fastboot,scrcpy-server|without-scrcpy-server-d41d8cd98f00b204e9800998
 apt-file-build-1dafd5b8ba8fb1feccf1b7bb:1.0:deps:apt(>=1.3~exp1~),bash-completion,debhelper-compat(=11),libapt-pkg-perl,liblist-moreutils-perl,libregexp-assemble-perl,libtest-minimumversion-perl,libtest-strict-perl,perl
-asciidoc-77b93e1dfd800f639573927b:1.2:bundle:asciidoc-common,asciidoctor,asciidoctor-doc,docbook-utils,docbook-xsl,epubcheck,fop,libxml2-utils,source-highlight,xmlto,xsltproc
+asciidoc-77b93e1dfd800f639573927b:1.3:bundle:asciidoc-common,asciidoctor,asciidoctor-doc,docbook-utils,docbook-xsl,epubcheck,fop,libxml2-utils,source-highlight,xmlto,xsltproc,ruby-asciidoctor-pdf
 audio-processing-e5d1bf7a8e86ab009eed01d6:1.1:bundle:bs1770gain,easytag,lame,mhwaveedit,mp3gain,normalize-audio
 augeas-053734d3bbdff66f0a035322:1.0:bundle:augeas-doc,augeas-lenses,augeas-tools
 autotools-c0afbde4572b13f4dfbd262b:1.1:bundle:autoconf,autoconf-doc,automake,autopoint,gettext,gettext-doc,gnu-standards,intltool,libtool,libtool-doc,pkg-config
