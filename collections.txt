@@ -86,8 +86,7 @@ gtk-dev-7874018fcddf4db0ef25aa99:1.4:bundle:devhelp,glade,libcairo2-doc,libglib2
 gtk-dev-perl-36f3099a9498d0c62ffefaa9:1.0:bundle:glade,libglib-perl,libglib2.0-doc,libgtk-3-doc,libgtk3-imageview-perl,libgtk3-perl,libgtk3-simplelist-perl,libgtk3-webkit2-perl,libpango1.0-doc
 gtk-sh-script-32bf39c78f1c295fa0541ce3:1.0:bundle:dialog,glade,libglib2.0-doc,libgtk-3-doc,libpango1.0-doc,ssft,zenity
 h2-04204337252dd9a86ff296a2:1.0:bundle:libh2-java
-herbe-build-deps-44d8eb77533babc84743a890:1.0:deps:build-essential,git,libfreetype-dev,libx11-dev,libxft-dev,patch
-herbe-build-deps-60367dd08eb41e5b89345f41:1.0:bundle:c-compiler,libc-dev,libfreetype-dev,libx11-dev,libxft-dev
+herbe-build-deps-44d8eb77533babc84743a890:1.1:deps:c-compiler,git,libc-dev,libfreetype-dev,libx11-dev,libxft-dev,patch
 hexedit-x11-5a284aea8a51ec61d1424b1b:1.1:bundle:wxhexeditor,x86dis
 hexen-6311056783f6071ffd3fe1a0:1.0:bundle:crispy-doom,doom-wad-shareware
 horde-groupware-2ddab8ef866fc0c32bba8f1c:1.0:bundle:apache2,php-horde-groupware
