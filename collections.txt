@@ -174,7 +174,7 @@ uae-amiga-emulator-228a979ec442853d3fdea0d3:1.2:bundle:fs-uae-arcade,fs-uae-laun
 untrunc-ffb255e70aa56b180d498512:1.0:deps:libavcodec-dev,libavformat-dev,libavutil-dev
 vde2-32307e71ee36e43f729453cd:1.0:deps:cdbs,debhelper,dh-autoreconf,libpcap-dev,libssl-dev,quilt
 vector-editors-f72f3c2a949e1520cb49019e:1.2:bundle:dia-e42818b219672d63eefc6e5a,inkscape-777c658b4c2f5974edc497be|libreoffice-draw
-vice-emulator-d48153ea2568be9339eb0b19:1.0:deps:autoconf,automake,build-essential,byacc,dos2unix,flex,gawk,libasound2-dev,libcurl4-openssl-dev,libevdev-dev,libgif-dev,libglew-dev,libgtk-3-dev,libpcap-dev,libpulse-dev,texinfo,texlive-fonts-recommended,texlive-latex-extra,texlive-plain-generic,xa65
+vice-emulator-d48153ea2568be9339eb0b19:1.0:deps:autoconf,automake,build-essential,byacc,dos2unix,flex,gawk,icoutils,libasound2-dev,libcurl4-openssl-dev,libevdev-dev,libgif-dev,libglew-dev,libgtk-3-dev,libhidapi-dev,libpcap-dev,libpci-dev,libpulse-dev,libusb-1.0-0-dev,portaudio19-dev,texinfo,texlive-fonts-recommended,texlive-latex-extra,texlive-plain-generic,xa65
 video-conversion-002939e12496e9b91dc99c3c:1.0:bundle:ffmpeg-24db7c08e5e4017831f7218a,mediainfo,mediainfo-gui|without-desktop-d41d8cd98f00b204e9800998,mkvtoolnix,mkvtoolnix-gui|without-desktop-d41d8cd98f00b204e9800998,x264,x265
 vlc-video-gui-75635a08d7bb2b25d2d6c293:1.2:bundle:vlc,vlc-l10n,vlc-plugin-fluidsynth,vlc-plugin-svg
 vnc-7b850f9437e0ea0cfa7b9f55:1.0:bundle:ssvnc,tigervnc-standalone-server
