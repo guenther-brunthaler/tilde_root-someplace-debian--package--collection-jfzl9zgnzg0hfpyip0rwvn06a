@@ -36,7 +36,7 @@ descent1-a588fa0e60c43b1cf0c89b08:1.0:bundle:d1x-rebirth
 descent2-66091bc9693a305c4ae0c6e9:1.1:bundle:d2x-rebirth,descent2-data-68924a472b102e7a4ecb7d5e
 descent2-data-68924a472b102e7a4ecb7d5e:1.0:bundle:d2x-rebirth
 desktop-calculators-3041af9d99b3d7e9e4d05544:1.1:bundle:qalculate-gtk,qalculate-qt,xcas
-desktop-utils-52ed00953fc29aac8ce2e5a0:1.1:bundle:l3afpad|leafpad|mousepad|kwrite|gedit,on-screen-keyboard-db0d6635eec54d37002b8be1,qasmixer,suckless-tools,x11-utils,xaos,xfce4-taskmanager,xzoom|x11-apps
+desktop-utils-52ed00953fc29aac8ce2e5a0:1.2:bundle:featherpad|l3afpad|leafpad|xfe|mousepad|kwrite|gedit,on-screen-keyboard-db0d6635eec54d37002b8be1,qasmixer,suckless-tools,x11-utils,xaos,xfce4-taskmanager,xzoom|x11-apps
 devices-ba683709ed0194655123a55b:1.1:bundle:hwdata
 dia-e42818b219672d63eefc6e5a:1.0:bundle:dia,dia-shapes,gsfonts-x11
 dictd-01a48ce55f1e35f7d7d05384:1.0:bundle:dict,dict-bouvier|without-dict-bouvier-d41d8cd98f00b204e9800998,dict-de-en,dict-devil,dict-elements,dict-foldoc,dict-freedict-deu-eng,dict-freedict-eng-deu,dict-gcide,dict-jargon,dict-moby-thesaurus|without-dict-moby-thesaurus-d41d8cd98f00b204e9800998,dict-vera,dict-wn,dictd
