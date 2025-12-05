@@ -7,7 +7,9 @@ apt-file-build-1dafd5b8ba8fb1feccf1b7bb:1.0:deps:apt(>=1.3~exp1~),bash-completio
 asciidoc-77b93e1dfd800f639573927b:1.4:bundle:asciidoc-common,asciidoctor,asciidoctor-doc,docbook-utils,docbook-xsl,epubcheck,fop,libxml2-utils,ruby-asciidoctor-pdf,source-highlight,xmlto,xsltproc
 audio-processing-e5d1bf7a8e86ab009eed01d6:1.1:bundle:bs1770gain,easytag,lame,mhwaveedit,mp3gain,normalize-audio
 augeas-053734d3bbdff66f0a035322:1.0:bundle:augeas-doc,augeas-lenses,augeas-tools
+auto-upgrades-ddf5079c4312865680208453:1.0:bundle:python3-gi,unattended-upgrades
 autotools-c0afbde4572b13f4dfbd262b:1.1:bundle:autoconf,autoconf-doc,automake,autopoint,gettext,gettext-doc,gnu-standards,intltool,libtool,libtool-doc,pkg-config
+avfs-c1b01e827db0de01e8354f31:1.0:bundle:avfs,p7zip-full
 bison-build-5fd9b91d8ed0a2b30f9923d1:1.0:deps:debhelper-compat(=12),flex,gettext,help2man,m4(>=1.4-14)
 blueman-5996ac14a88ad73591c6eea2:1.1:bundle:blueman,pulseaudio-module-bluetooth
 brainstorm-dd255b04b0543d423c6196f1:1.0:bundle:python3-brainstorm,python3-pygraphviz
@@ -30,6 +32,7 @@ crossbuild-on-armhf-0a923a6923a7c109dd0b8074:1.0:bundle:crossbuild-essential-amd
 database-utils-82874b941cc4999828638553:1.0:bundle:sqlite3,sqlitebrowser
 dbi-c-644f204e4b3b9168a7de88f3:1.0:bundle:libdbd-sqlite3,libdbi-dev,libdbi-doc
 debdelta-ed0b90bf610d8c8a15b21e6d:1.1:bundle:apt,debdelta,python3-apt,xdelta3
+debian-builds-0b135935aa51c6c212802678:1.1:bundle:build-essential,dctrl-tools,debian-keyring,devscripts,equivs,libdistro-info-perl,libdpkg-perl,libencode-locale-perl,libgit-wrapper-perl,libgitlab-api-v4-perl,liblist-compare-perl,liblwp-protocol-https-perl,libsoap-lite-perl,libstring-shellquote-perl,libtry-tiny-perl,liburi-perl,licensecheck,lintian,man-db,patch,pristine-tar,python3-apt,python3-debian,python3-magic,python3-requests,python3-unidiff,python3-xdg,strace,unzip,wget,xz-utils
 debian-documentation-45dffb98247e52ab4cd1dacd:1.0:bundle:debian-reference-en,debmake,debmake-doc,developers-reference
 debian-rebuild-dpkgs-3badfb8f1f3a86cc7a37a508:1.0:bundle:build-essential,devscripts,fakeroot
 descent1-a588fa0e60c43b1cf0c89b08:1.0:bundle:d1x-rebirth
@@ -60,7 +63,7 @@ firmware-74e690576dfe9e5762602a7f:1.0:bundle:cpu-microcode-87c64541840d77033f49c
 firmware-base-dc438327bf57f783f40b1b4e:1.0:bundle:firmware-atheros,firmware-brcm80211,firmware-libertas,firmware-linux,firmware-linux-free,firmware-linux-nonfree,firmware-mediatek,firmware-misc-nonfree,firmware-realtek
 fluxbox-33ae9fac4f4b2ca1cd6467e3:1.2:bundle:adwaita-icon-theme,alsa-utils,fbautostart,fluxbox,gnome-icon-theme,suckless-tools,x11-utils,xdgmenumaker-7acf2b30019a0f1dc1257259,xloadimage
 fonts-ffa27481f7054fd23fa6cb20:1.0:bundle:fonts-ocr-a,fonts-ocr-b
-fossil-86790f57d0225fda00762736:1.0:deps:libfuse-dev
+fossil-8cabcd009e84178767b812a5:1.1:deps:build-essential,libfuse-dev,libssl-dev,musl-tools,pkg-config,zlib1g-dev
 frama-c-c5b5502a22fc13f12ac26bc3:1.1:bundle:frama-c-base,libwhy3-ocaml-dev,ocaml-doc,why3
 freecad-3b9dfcbb5723d17efa0bee3f:1.3:bundle:calculix-ccx,freecad,freecad-doc|without-freecad-doc-d41d8cd98f00b204e9800998,freecad-python3,python3-collada
 fuse-spectrum-emulator-c507f2133099bc8d91ebe98d:1.0:bundle:fuse-emulator-gtk,fuse-emulator-utils
@@ -99,6 +102,7 @@ inkscape-777c658b4c2f5974edc497be:1.1:bundle:fig2dev,inkscape,inkscape-tutorials
 intel-gpu-b60abd343481d6af96080670:1.1:bundle:firmware-intel-graphics,intel-gpu-tools,inxi,lshw,pciutils,vainfo
 jack-a5282b05bcb16cc8ab45e717:1.1:bundle:jack-keyboard,jackd2,meterbridge,qjackctl,vlc-plugin-jack
 jdk-89138365c020f4ce3dd3d90f:1.0:bundle:default-jdk,default-jdk-doc,icedtea-netx
+jre-e8e154851a931afe70d20035:1.0:bundle:default-jre,fonts-dejavu-extra,fonts-indic,fonts-ipafont-gothic,fonts-ipafont-mincho,fonts-wqy-microhei
 kate-8a81477a38d82a16d7fd880c:1.0:bundle:cppcheck,exuberant-ctags,kate
 kdenlive-24b25eaf78121fc4e7367abd:1.0:bundle:breeze,frei0r-plugins,kdenlive,oxygen-icon-theme,recordmydesktop,swh-plugins
 krusader-cd1064df2639bf6f0cf2a0b5:1.2:bundle:breeze-icon-theme,bzip2,cpio,kate-8a81477a38d82a16d7fd880c,kde-cli-tools,kdiff3|kompare|xxdiff,keditbookmarks,kio-extras,konsole,krename,krusader,md5deep|cfv,p7zip,unzip,zip
@@ -153,6 +157,7 @@ qt-quick-3e7536f1d0a9e1d072cfe4ac:1.0:bundle:clang-tidy,gdb,make,qml-qt6,qt6-bas
 quake-d40a56a36ff6247e016aec88:1.1:bundle:quake,quake-registered|without-quake-registered-d41d8cd98f00b204e9800998
 quake2-d4f227c438145a04f8eb37fa:1.2:bundle:quake2,quake2-full-data|without-quake2-full-data-d41d8cd98f00b204e9800998,yamagi-quake2
 recoll-6ab0e34cdb5b20275125f509:1.2:bundle:antiword,aspell-de,aspell-en,djvulibre-bin,ghostscript,groff,libimage-exiftool-perl,libinotifytools0,poppler-utils,pstotext|without-pstotext-d41d8cd98f00b204e9800998,python3-chardet,python3-chm,python3-icalendar,python3-lxml,python3-mido,python3-mutagen,python3-py7zr,python3-rarfile,recollcmd,unrtf,untex,wv,xdg-utils,xsltproc
+rpi-doc-build-f7dd31a79f97185cfce521d3:1.0:deps:make,ninja-build,python3,python3-pip,python3-yaml,ruby,ruby-dev
 rust-dev-c2f6a666d7bf981917d5048c:1.0:bundle:cargo,cargo-doc
 scantailor-build-94d79bfcb6468cfe075bb956:1.2:deps:cmake,g++,gcc,libboost-test-dev,libjpeg-dev,libpng-dev,libpthread-stubs0-dev,libqt6opengl6-dev,libtiff-dev,qt6-svg-dev,qt6-tools-dev,qt6-tools-dev-tools
 scantailor-missing-d41d8cd98f00b204e9800998:1.0:bundle:
@@ -171,6 +176,7 @@ tageditor-5084157272a338e4b7b968a2:1.0:deps:qtdeclarative5-dev,qtwebengine5-dev
 tesseract-ocr-548664ff06157fe210d4fb27:1.0:bundle:tesseract-ocr,tesseract-ocr-deu,tesseract-ocr-deu-frak|without-tesseract-ocr-deu-frak-d41d8cd98f00b204e9800998,tesseract-ocr-eng,tesseract-ocr-equ|without-tesseract-ocr-equ-d41d8cd98f00b204e9800998,tesseract-ocr-frk,tesseract-ocr-osd,tesseract-ocr-script-frak
 thunderbird-5993a4cb07863b81574a56f1:1.0:bundle:fonts-lyx,hunspell-de-at,hunspell-de-de,hunspell-en-us,thunderbird-l10n-de
 thunderbird-90a4a6d4ad682ea8f467ff60:1.0:bundle:birdtray,hunspell-de-at,hunspell-de-de,thunderbird-l10n-de,webext-mailmindr,webext-quicktext
+tor-d7d97b4547f46cbdee225665:1.0:bundle:tor,torsocks
 uae-amiga-emulator-228a979ec442853d3fdea0d3:1.2:bundle:fs-uae-arcade,fs-uae-launcher|without-fs-uae-launcher-d41d8cd98f00b204e9800998
 untrunc-ffb255e70aa56b180d498512:1.0:deps:libavcodec-dev,libavformat-dev,libavutil-dev
 vde2-32307e71ee36e43f729453cd:1.0:deps:cdbs,debhelper,dh-autoreconf,libpcap-dev,libssl-dev,quilt
