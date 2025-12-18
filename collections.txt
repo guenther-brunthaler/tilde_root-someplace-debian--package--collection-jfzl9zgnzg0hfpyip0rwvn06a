@@ -12,6 +12,7 @@ autotools-c0afbde4572b13f4dfbd262b:1.1:bundle:autoconf,autoconf-doc,automake,aut
 avfs-c1b01e827db0de01e8354f31:1.0:bundle:avfs,p7zip-full
 bison-build-5fd9b91d8ed0a2b30f9923d1:1.0:deps:debhelper-compat(=12),flex,gettext,help2man,m4(>=1.4-14)
 blueman-5996ac14a88ad73591c6eea2:1.1:bundle:blueman,pulseaudio-module-bluetooth
+bm3d-deps-82f85321fa8c627d31c96e73:1.0:deps:cmake,libfftw3-dev,libjpeg-dev,libtiff-dev,quilt
 brainstorm-dd255b04b0543d423c6196f1:1.0:bundle:python3-brainstorm,python3-pygraphviz
 bsdgames-build-1aa48cbea21e42e2e58cda8f:1.0:deps:bison,debhelper(>=11~),flex,groff,libfl-dev,libncurses5-dev,wamerican,wbritish
 btrfs-3052ed4a9c1751a239b2cdf1:1.0:bundle:btrfs-compsize,btrfs-heatmap,btrfs-progs,duperemove
@@ -221,5 +222,6 @@ xcas-dfdb8acfde8a9c2373d33ec5:1.0:bundle:giac-doc,hevea,xcas
 xdgmenumaker-7acf2b30019a0f1dc1257259:1.2:deps:python3-gi,python3-pil,python3-xdg,txt2tags
 xfe-451d1151efb099b4a85b8bd9:1.0:bundle:wm-icons,xfe-i18n
 xgas-639156a60a7b60f23dbd29dd:1.0:deps:cpp,libice-dev,libsm-dev,libx11-dev,libxaw7-dev,libxext-dev,libxmu-dev,xutils-dev
+yacas-aecf4ce0db4e2bbef98da1a4:1.0:bundle:yacas,yacas-build-deps,yacas-doc
 youtube-dl-e08cb560fa0fac340ce6e958:1.0:deps:python3-pip
 zim-489de24138ef0b5138ff7ab8:1.1:bundle:ditaa,dvipng,gir1.2-gtksource-3.0,gir1.2-gtkspell3-3.0,git,zim
