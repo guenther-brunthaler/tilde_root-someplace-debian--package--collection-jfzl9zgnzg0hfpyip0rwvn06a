@@ -56,6 +56,7 @@ extract-pdf-layers-d1ca09f05ec732e67338ac58:1.0:deps:pikepdf-doc,python3-pikepdf
 favorite-games-desktop-8e8a7ee1b64c3647244f5770:1.0:bundle:2048-qt,pipewalker,sgt-puzzles
 favorite-games-fps-b35b56626428c42ffaedcacd:1.0:bundle:billard-gl,galaga-bf855f99526ce3175c726248,kobodeluxe,rocksndiamonds
 ffmpeg-24db7c08e5e4017831f7218a:1.0:bundle:ffmpeg,ffmpeg-doc
+ffmpeg-build-deps-67c4f226e5121ba180d4ac62:1.0:deps:ffmpeg-build-deps,libfdk-aac-dev
 fftw3-dev-4a4abf4a7539144dfac6e6d7:1.0:deps:fftw3-build-deps,libfftw3-dev,libfftw3-doc,libfftw3-double3
 firefox-46abe1b2da7e4c26cfafad9d:1.1:bundle:firefox-l10n-de|firefox-esr-l10n-de,firefox|firefox-esr
 firefox-lz4-fc44c744b57f6cb27ac86bfa:1.0:deps:python3-lz4
