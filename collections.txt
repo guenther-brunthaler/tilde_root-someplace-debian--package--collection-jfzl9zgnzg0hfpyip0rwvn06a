@@ -9,7 +9,7 @@ audio-processing-e5d1bf7a8e86ab009eed01d6:1.1:bundle:bs1770gain,easytag,lame,mhw
 augeas-053734d3bbdff66f0a035322:1.0:bundle:augeas-doc,augeas-lenses,augeas-tools
 auto-upgrades-ddf5079c4312865680208453:1.0:bundle:python3-gi,unattended-upgrades
 autotools-c0afbde4572b13f4dfbd262b:1.1:bundle:autoconf,autoconf-doc,automake,autopoint,gettext,gettext-doc,gnu-standards,intltool,libtool,libtool-doc,pkg-config
-avfs-c1b01e827db0de01e8354f31:1.0:bundle:avfs,p7zip-full
+avfs-01f81915f2103f8dfe79d3a5:1.1:bundle:arj,avfs,cdparanoia,lhasa,p7zip-full,rpm,unzip,wget,zip,zoo
 bison-build-5fd9b91d8ed0a2b30f9923d1:1.0:deps:debhelper-compat(=12),flex,gettext,help2man,m4(>=1.4-14)
 blueman-5996ac14a88ad73591c6eea2:1.1:bundle:blueman,pulseaudio-module-bluetooth
 bm3d-deps-82f85321fa8c627d31c96e73:1.0:deps:cmake,libfftw3-dev,libjpeg-dev,libtiff-dev,quilt
@@ -26,6 +26,7 @@ claws-846c0613b2ccd7a9d264513a:1.2:bundle:claws-mail-bogofilter,claws-mail-doc,c
 cli-calculators-c8bbe7bb70799ebf08de379e:1.0:bundle:bc,maxima|without-maxima-d41d8cd98f00b204e9800998,qalc
 clisp-f0d9c03a3a468872abc6a1a1:1.0:bundle:clisp,clisp-doc,clisp-module-clx,clisp-module-gdbm,clisp-module-pcre,clisp-module-zlib
 config-fuse-fs-9a3f1ebf5163812aaa98dec9:1.0:bundle:augeas-doc,augeas-tools
+covid19stats-4c814e0fceedfe47c40a89ed:1.0:deps:libjson-perl,libwww-perl
 cpu-microcode-87c64541840d77033f49c45e:1.0:bundle:amd64-microcode|without-amd-cpu-d41d8cd98f00b204e9800998,intel-microcode|without-intel-cpu-d41d8cd98f00b204e9800998
 cropgui-554e3c0b7f33937ecff91f10:1.3:deps:imagemagick-dc2394056880d05018465d41,libimage-exiftool-perl,libjpeg-turbo-progs,python3,python3-pil,python3-pil.imagetk
 crossbuild-on-amd64-4b4d7ca85438a1fff3ef662b:1.0:bundle:crossbuild-essential-arm64,crossbuild-essential-armhf,crossbuild-essential-i386
@@ -72,6 +73,7 @@ fuse-spectrum-emulator-c507f2133099bc8d91ebe98d:1.0:bundle:fuse-emulator-gtk,fus
 galaga-bf855f99526ce3175c726248:1.0:bundle:xgalaga++
 game-data-packager-4be3f456f781dc651b8dfe46:1.0:bundle:game-data-packager,innoextract,lhasa
 gb-endorsed-apis-124cdaa61539048bd16e373d:1.0:deps:portaudio19-dev,portaudio19-doc
+gb-tools-2cb62a9e3a045f0b0668e043:1.0:bundle:lrzip
 gbosslcrypt-9a2069ed05667a06d73a7fb8:1.0:deps:coreutils,idn|icu-devtools,openssl
 gbosslcrypt-initramfs-478952b76d4863b1406e4d00:1.0:deps:idn,openssl
 gedit-078cd32540b9e622e6401124:1.0:bundle:gedit,gedit-common,gedit-dev,gedit-plugin-bookmarks,gedit-plugin-bracket-completion,gedit-plugin-character-map,gedit-plugin-code-comment,gedit-plugin-color-picker,gedit-plugin-draw-spaces,gedit-plugin-join-lines,gedit-plugin-multi-edit,gedit-plugin-session-saver,gedit-plugin-smart-spaces,gedit-plugin-terminal,gedit-plugin-word-completion,gedit-plugins,gedit-plugins-common,gedit-source-code-browser-plugin
@@ -141,12 +143,14 @@ openbox-f122cd5720a2aad2314c6c7e:1.0:bundle:obconf,obsession,openbox,openbox-men
 openssl-build-ce7bc9d7923f5d13b1c7b788:1.0:deps:bc,debhelper,dpkg-dev,m4
 parsing-92fe86b695d512b864ed436d:1.0:bundle:antlr3,bison,flex,lemon
 pcmanfm-b79b12669e48925906f17e21:1.0:bundle:gnome-icon-theme|oxygen-icon-theme|tango-icon-theme|lxde-icon-theme,libfm-modules,pcmanfm
+pdf-3ed3e3559f3a1ff345d225d7:1.0:bundle:poppler-utils
 pdf-crop-dcbd61185a69ad41f7832786:1.2:deps:libpodofo-utils,python3-pypdf
 pdf-scan-ocr-46f1493eb97854e1409910d3:1.5:bundle:exactimage,gocr,imagemagick-dc2394056880d05018465d41,img2pdf,ocrad,ocrmypdf,ocrmypdf-doc,pdf2svg,pdfgrep,pdfresurrect,pdfsandwich,pdfshuffler|pdfarranger,pdftk,pngquant,poppler-utils,pstotext|without-pstotext-d41d8cd98f00b204e9800998,qpdf,sane-utils,simple-scan,tesseract-ocr-548664ff06157fe210d4fb27,unpaper
 pdf417decode-fbbf55febd9701eea8b1e216:1.0:deps:libnetpbm11
 pekwm-603032f95462b6e2013a1d2f:1.0:bundle:pekwm,zenity
 phototonic-91e41d6f29b2f63486db713c:1.0:deps:libexiv2-dev,libqt5svg5-dev,qt5-image-formats-plugins,qtchooser
 phototonic-ae8273b9944dd130b226ff2c:1.0:bundle:phototonic,qt5-image-formats-plugins
+pip3-apps-1ab6023acca1aad8396e9dbb:1.0:bundle:dbus,libcairo2-dev,libdbus-1-dev,libgirepository1.0-dev,libpython3.9-dev,pkg-config
 pixmap-editors-5a004e93aac83a3633ef1b64:1.0:bundle:kolourpaint,mtpaint,phototonic
 polly-b-gone-1a4caba65311eae0c8cc71ec:1.0:deps:libsdl-image1.2-dev,libsdl-mixer1.2-dev,libsdl1.2-dev,libtinyxml2-dev
 ptdescreen-c5d5e86b3343993b7cb6f693:1.0:deps:libfftw3-dev
@@ -158,6 +162,7 @@ qt-73e17f68162dbf290d790b5b:1.2:bundle:qt5ct,qt6ct,qttools5-dev-tools
 qt-quick-3e7536f1d0a9e1d072cfe4ac:1.0:bundle:clang-tidy,gdb,make,qml-qt6,qt6-base-dev-tools,qt6-declarative-dev-tools,qt6-qmltooling-plugins,qt6-tools-dev-tools,qt6-translations-l10n,qtcreator,qtcreator-doc,xterm
 quake-d40a56a36ff6247e016aec88:1.1:bundle:quake,quake-registered|without-quake-registered-d41d8cd98f00b204e9800998
 quake2-d4f227c438145a04f8eb37fa:1.2:bundle:quake2,quake2-full-data|without-quake2-full-data-d41d8cd98f00b204e9800998,yamagi-quake2
+raspberrypi-cross-compilation-bdeps-a0198aa10dec49b2ebec0e33:1.1:bundle:c-compiler-arm-linux-gnueabihf,libc-dev-armhf-cross,qemu-user
 recoll-6ab0e34cdb5b20275125f509:1.2:bundle:antiword,aspell-de,aspell-en,djvulibre-bin,ghostscript,groff,libimage-exiftool-perl,libinotifytools0,poppler-utils,pstotext|without-pstotext-d41d8cd98f00b204e9800998,python3-chardet,python3-chm,python3-icalendar,python3-lxml,python3-mido,python3-mutagen,python3-py7zr,python3-rarfile,recollcmd,unrtf,untex,wv,xdg-utils,xsltproc
 rpi-doc-build-f7dd31a79f97185cfce521d3:1.0:deps:make,ninja-build,python3,python3-pip,python3-yaml,ruby,ruby-dev
 rust-dev-c2f6a666d7bf981917d5048c:1.0:bundle:cargo,cargo-doc
@@ -175,6 +180,7 @@ ssl-pki-19c4f3bb461043047e808a51:1.0:bundle:gnutls-bin
 steghide-build-c628bc70018de7edc76cb909:1.0:deps:debhelper(>=11),doxygen,libjpeg-dev,libmcrypt-dev,libmhash-dev,libtool-bin,zlib1g-dev
 stitching-33e973c8d98f741820c7df50:1.1:bundle:libpano13-dev,opencv-doc,python3-opencv
 tageditor-5084157272a338e4b7b968a2:1.0:deps:qtdeclarative5-dev,qtwebengine5-dev
+temperature-sampling-fc613476bce443a426b5c982:1.0:deps:gawk,sqlite3
 tesseract-ocr-548664ff06157fe210d4fb27:1.0:bundle:tesseract-ocr,tesseract-ocr-deu,tesseract-ocr-deu-frak|without-tesseract-ocr-deu-frak-d41d8cd98f00b204e9800998,tesseract-ocr-eng,tesseract-ocr-equ|without-tesseract-ocr-equ-d41d8cd98f00b204e9800998,tesseract-ocr-frk,tesseract-ocr-osd,tesseract-ocr-script-frak
 thunderbird-5993a4cb07863b81574a56f1:1.0:bundle:fonts-lyx,hunspell-de-at,hunspell-de-de,hunspell-en-us,thunderbird-l10n-de
 thunderbird-90a4a6d4ad682ea8f467ff60:1.0:bundle:birdtray,hunspell-de-at,hunspell-de-de,thunderbird-l10n-de,webext-mailmindr,webext-quicktext
