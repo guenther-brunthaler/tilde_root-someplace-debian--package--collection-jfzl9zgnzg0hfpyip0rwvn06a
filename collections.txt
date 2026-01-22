@@ -9,7 +9,7 @@ audio-processing-e5d1bf7a8e86ab009eed01d6:1.1:bundle:bs1770gain,easytag,lame,mhw
 augeas-053734d3bbdff66f0a035322:1.0:bundle:augeas-doc,augeas-lenses,augeas-tools
 auto-upgrades-ddf5079c4312865680208453:1.0:bundle:python3-gi,unattended-upgrades
 autotools-c0afbde4572b13f4dfbd262b:1.1:bundle:autoconf,autoconf-doc,automake,autopoint,gettext,gettext-doc,gnu-standards,intltool,libtool,libtool-doc,pkg-config
-avfs-01f81915f2103f8dfe79d3a5:1.1:bundle:arj,avfs,cdparanoia,lhasa,p7zip-full,rpm,unzip,wget,zip,zoo
+avfs-01f81915f2103f8dfe79d3a5:1.2:bundle:arj,avfs,cdparanoia,lhasa,p7zip-full,rpm,unzip,wget,zip
 bison-build-5fd9b91d8ed0a2b30f9923d1:1.0:deps:debhelper-compat(=12),flex,gettext,help2man,m4(>=1.4-14)
 blueman-5996ac14a88ad73591c6eea2:1.1:bundle:blueman,pulseaudio-module-bluetooth
 bm3d-deps-82f85321fa8c627d31c96e73:1.0:deps:cmake,libfftw3-dev,libjpeg-dev,libtiff-dev,quilt
@@ -150,7 +150,7 @@ pdf417decode-fbbf55febd9701eea8b1e216:1.0:deps:libnetpbm11
 pekwm-603032f95462b6e2013a1d2f:1.0:bundle:pekwm,zenity
 phototonic-91e41d6f29b2f63486db713c:1.0:deps:libexiv2-dev,libqt5svg5-dev,qt5-image-formats-plugins,qtchooser
 phototonic-ae8273b9944dd130b226ff2c:1.0:bundle:phototonic,qt5-image-formats-plugins
-pip3-apps-1ab6023acca1aad8396e9dbb:1.0:bundle:dbus,libcairo2-dev,libdbus-1-dev,libgirepository1.0-dev,libpython3.9-dev,pkg-config
+pip3-apps-1ab6023acca1aad8396e9dbb:1.1:bundle:dbus,libcairo2-dev,libdbus-1-dev,libgirepository1.0-dev,libpython3-dev,pkg-config
 pixmap-editors-5a004e93aac83a3633ef1b64:1.0:bundle:kolourpaint,mtpaint,phototonic
 polly-b-gone-1a4caba65311eae0c8cc71ec:1.0:deps:libsdl-image1.2-dev,libsdl-mixer1.2-dev,libsdl1.2-dev,libtinyxml2-dev
 ptdescreen-c5d5e86b3343993b7cb6f693:1.0:deps:libfftw3-dev
