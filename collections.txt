@@ -35,7 +35,7 @@ database-utils-82874b941cc4999828638553:1.0:bundle:sqlite3,sqlitebrowser
 dbi-c-644f204e4b3b9168a7de88f3:1.0:bundle:libdbd-sqlite3,libdbi-dev,libdbi-doc
 debdelta-ed0b90bf610d8c8a15b21e6d:1.1:bundle:apt,debdelta,python3-apt,xdelta3
 debian-builds-0b135935aa51c6c212802678:1.1:bundle:build-essential,dctrl-tools,debian-keyring,devscripts,equivs,libdistro-info-perl,libdpkg-perl,libencode-locale-perl,libgit-wrapper-perl,libgitlab-api-v4-perl,liblist-compare-perl,liblwp-protocol-https-perl,libsoap-lite-perl,libstring-shellquote-perl,libtry-tiny-perl,liburi-perl,licensecheck,lintian,man-db,patch,pristine-tar,python3-apt,python3-debian,python3-magic,python3-requests,python3-unidiff,python3-xdg,strace,unzip,wget,xz-utils
-debian-documentation-45dffb98247e52ab4cd1dacd:1.0:bundle:debian-reference-en,debmake,debmake-doc,developers-reference
+debian-documentation-45dffb98247e52ab4cd1dacd:1.1:bundle:debian-reference-en,debmake,debmake-doc
 debian-rebuild-dpkgs-3badfb8f1f3a86cc7a37a508:1.0:bundle:build-essential,devscripts,fakeroot
 descent1-a588fa0e60c43b1cf0c89b08:1.0:bundle:d1x-rebirth
 descent2-66091bc9693a305c4ae0c6e9:1.1:bundle:d2x-rebirth,descent2-data-68924a472b102e7a4ecb7d5e
