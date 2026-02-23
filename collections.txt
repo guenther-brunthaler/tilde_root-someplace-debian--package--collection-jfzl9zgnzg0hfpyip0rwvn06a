@@ -100,7 +100,7 @@ hexen-6311056783f6071ffd3fe1a0:1.0:bundle:crispy-doom,doom-wad-shareware
 horde-groupware-2ddab8ef866fc0c32bba8f1c:1.0:bundle:apache2,php-horde-groupware
 ical-build-fe42c9a1d1e60b823e61653f:1.0:deps:tcl8.6,tcl8.6-dev,tk8.6,tk8.6-dev
 imagemagick-dc2394056880d05018465d41:1.0:bundle:imagemagick,librsvg2-bin
-imgview-edaecec2c356ccfd6372d925:1.2:bundle:geeqie,gpicview,heif-gdk-pixbuf,phototonic,xloadimage
+imgview-edaecec2c356ccfd6372d925:1.3:bundle:geeqie,gpicview,heif-gdk-pixbuf,phototonic,xloadimage,feh
 initramfs-comfort-1e16894e4dbfea70a37b4757:1.2:bundle:clex,cryptsetup,cryptsetup-initramfs,dropbear-initramfs,gbosslcrypt-initramfs-478952b76d4863b1406e4d00,initramfs-tools,lvm2,mdadm,nbd-client,ne,qemu-utils,screen
 inkscape-777c658b4c2f5974edc497be:1.1:bundle:fig2dev,inkscape,inkscape-tutorials,libwmf-bin,python3-scour
 intel-gpu-b60abd343481d6af96080670:1.1:bundle:firmware-intel-graphics,intel-gpu-tools,inxi,lshw,pciutils,vainfo
