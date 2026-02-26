@@ -158,6 +158,7 @@ py-qt-c6a64416bf4c1ba30ec88322:1.1:bundle:pyside2-tools,python-anyqt-doc,python-
 qalculate-bf7aefe30a0b34d38d657ad7:1.0:bundle:qalc,qalculate-qt
 qemu-6136e7d01403142683326913:1.0:bundle:qemu-block-extra,qemu-guest-agent,qemu-kvm,qemu-slof,qemu-system-arm,qemu-system-gui,qemu-user-static,qemu-utils,spice-client-gtk,spice-html5,spice-vdagent
 qpdfview-158fa4cf70f7d73da061a39a:1.1:bundle:qpdfview,qpdfview-ps-plugin,qpdfview-translations,qt-73e17f68162dbf290d790b5b
+qr-and-barcodes-5cd410c2fa4d4647e2e8b983:1.0:bundle:dmtx-utils,qrencode,zbar-tools
 qt-73e17f68162dbf290d790b5b:1.2:bundle:qt5ct,qt6ct,qttools5-dev-tools
 qt-quick-3e7536f1d0a9e1d072cfe4ac:1.0:bundle:clang-tidy,gdb,make,qml-qt6,qt6-base-dev-tools,qt6-declarative-dev-tools,qt6-qmltooling-plugins,qt6-tools-dev-tools,qt6-translations-l10n,qtcreator,qtcreator-doc,xterm
 quake-d40a56a36ff6247e016aec88:1.1:bundle:quake,quake-registered|without-quake-registered-d41d8cd98f00b204e9800998
