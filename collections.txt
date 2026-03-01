@@ -179,7 +179,7 @@ source-level-linker-66b63089a16fa2f6e375c6dc:1.0:bundle:libnet-ssleay-perl,libss
 spacefm-0fa037453ffa1ace9aed23f0:1.0:bundle:dbus,eject,lsof,spacefm,sshfs,udevil,wget
 ssl-pki-19c4f3bb461043047e808a51:1.0:bundle:gnutls-bin
 steghide-build-c628bc70018de7edc76cb909:1.0:deps:debhelper(>=11),doxygen,libjpeg-dev,libmcrypt-dev,libmhash-dev,libtool-bin,zlib1g-dev
-stitching-33e973c8d98f741820c7df50:1.1:bundle:libpano13-dev,opencv-doc,python3-opencv
+stitching-33e973c8d98f741820c7df50:1.2:deps:python3-opencv,python3-pil,opencv-doc|without-opencv-doc-d41d8cd98f00b204e9800998
 tageditor-5084157272a338e4b7b968a2:1.0:deps:qtdeclarative5-dev,qtwebengine5-dev
 temperature-sampling-fc613476bce443a426b5c982:1.0:deps:gawk,sqlite3
 tesseract-ocr-548664ff06157fe210d4fb27:1.0:bundle:tesseract-ocr,tesseract-ocr-deu,tesseract-ocr-deu-frak|without-tesseract-ocr-deu-frak-d41d8cd98f00b204e9800998,tesseract-ocr-eng,tesseract-ocr-equ|without-tesseract-ocr-equ-d41d8cd98f00b204e9800998,tesseract-ocr-frk,tesseract-ocr-osd,tesseract-ocr-script-frak
@@ -217,6 +217,7 @@ without-maxima-d41d8cd98f00b204e9800998:1.0:bundle:
 without-midori-d41d8cd98f00b204e9800998:1.0:bundle:
 without-nvidia-cudnn-d41d8cd98f00b204e9800998:1.0:bundle:
 without-nvidia-gpu-d41d8cd98f00b204e9800998:1.0:bundle:
+without-opencv-doc-d41d8cd98f00b204e9800998:1.0:bundle:
 without-pstotext-d41d8cd98f00b204e9800998:1.0:bundle:
 without-quake-registered-d41d8cd98f00b204e9800998:1.0:bundle:
 without-quake2-full-data-d41d8cd98f00b204e9800998:1.0:bundle:
