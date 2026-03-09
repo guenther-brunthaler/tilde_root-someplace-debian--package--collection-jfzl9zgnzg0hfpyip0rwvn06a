@@ -136,7 +136,7 @@ netbsd-9-67a2fe66ec180957f2be3e9b:1.0:bundle:cvs,g++,gcc,libncurses5-dev,libssl-
 nim-6e5dbfec05dc9b437740c433:1.0:bundle:nim,nim-doc
 nnn-ab7682e1485d37c0373667eb:1.0:bundle:atool|patool,file,lftp,mediainfo|exiftool,moreutils,nnn,vlock,xdg-utils
 nvidia-gpu-9fbe8b21d26295e0e5e8c4c5:1.1:bundle:firmware-nvidia-graphics,nvidia-driver-full
-nvidia-gpu-dev-0f634cae1f775714f7e3b344:1.0:bundle:libgl-dev,libnvcuvid1,libvdpau-dev,nvidia-cuda-dev,nvidia-cuda-toolkit,nvidia-cuda-toolkit-doc,nvidia-cudnn|without-nvidia-cudnn-d41d8cd98f00b204e9800998,nvidia-gpu-9fbe8b21d26295e0e5e8c4c5
+nvidia-gpu-dev-0f634cae1f775714f7e3b344:1.2:bundle:libgl-dev,libnvcuvid1,libvdpau-dev,nvidia-cuda-dev,nvidia-cuda-toolkit,nvidia-gpu-9fbe8b21d26295e0e5e8c4c5
 okular-e80caf78167965506d2cbe3b:1.1:bundle:ghostscript,okular,okular-extra-backends,poppler-data,texlive-binaries,unrar-free
 on-screen-keyboard-db0d6635eec54d37002b8be1:1.0:bundle:on-screen-keyboard-x11-3f0c23945e4636de798636e4,screen-keyboard-wayland-d134609aa3b15d8f20d45900|without-wayland-d41d8cd98f00b204e9800998
 on-screen-keyboard-x11-3f0c23945e4636de798636e4:1.0:bundle:cellwriter|matchbox-keyboard-f6e9482f791d629c159fe5e1|onboard
@@ -216,7 +216,6 @@ without-libreoffice-nlpsolver-d41d8cd98f00b204e9800998:1.0:bundle:
 without-libreoffice-report-builder-d41d8cd98f00b204e9800998:1.0:bundle:
 without-maxima-d41d8cd98f00b204e9800998:1.0:bundle:
 without-midori-d41d8cd98f00b204e9800998:1.0:bundle:
-without-nvidia-cudnn-d41d8cd98f00b204e9800998:1.0:bundle:
 without-nvidia-gpu-d41d8cd98f00b204e9800998:1.0:bundle:
 without-opencv-doc-d41d8cd98f00b204e9800998:1.0:bundle:
 without-pstotext-d41d8cd98f00b204e9800998:1.0:bundle:
