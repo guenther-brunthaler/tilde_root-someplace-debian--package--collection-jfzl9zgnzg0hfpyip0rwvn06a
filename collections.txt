@@ -73,7 +73,7 @@ frama-c-c5b5502a22fc13f12ac26bc3:1.1:bundle:frama-c-base,libwhy3-ocaml-dev,ocaml
 freecad-3b9dfcbb5723d17efa0bee3f:1.3:bundle:calculix-ccx,freecad,freecad-doc|without-freecad-doc-d41d8cd98f00b204e9800998,freecad-python3,python3-collada
 fs-utils-41f7cac44dfd6cc03b0d79f2:1.0:bundle:dosfstools,e2fsprogs,exfatprogs,f2fs-tools,ntfs-3g,reiserfsprogs,util-linux-extra
 fuse-spectrum-emulator-c507f2133099bc8d91ebe98d:1.0:bundle:fuse-emulator-gtk,fuse-emulator-utils
-fuzzy-search-87aa6510c9d10dd330507399:1.1:bundle:fzf,fzy,simhash,ssdeep
+fuzzy-search-87aa6510c9d10dd330507399:1.2:bundle:fzf,simhash,ssdeep
 galaga-bf855f99526ce3175c726248:1.0:bundle:xgalaga++
 game-data-packager-4be3f456f781dc651b8dfe46:1.0:bundle:game-data-packager,innoextract,lhasa
 gb-endorsed-apis-124cdaa61539048bd16e373d:1.0:deps:portaudio19-dev,portaudio19-doc
