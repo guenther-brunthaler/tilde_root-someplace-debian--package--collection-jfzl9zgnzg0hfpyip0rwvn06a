@@ -1,5 +1,6 @@
 7z-build-64af33bb8ad697f938b472be:1.0:deps:debhelper,yasm
 abiword-567b44ca0dde447cf98611b1:1.0:bundle:abiword,abiword-plugin-grammar,fonts-liberation,poppler-utils
+alsa-b269ae8e5e15d690d5d7fd0d:1.0:bundle:alsa-topology-conf,alsa-ucm-conf,alsa-utils,libasound2-data
 amd-gpu-9b258da1f21055767e513d9f:1.0:bundle:firmware-amd-graphics,rickslab-gpu-utils
 amd-gpu-dev-746c16ab1fa11227a5caf513:1.0:bundle:amd-gpu-9b258da1f21055767e513d9f,librocm-smi-dev,rocm-smi
 android-f7925a685cc0ccb21e5c120c:1.2:bundle:adb,fastboot,scrcpy-server|without-scrcpy-server-d41d8cd98f00b204e9800998
@@ -158,7 +159,7 @@ pekwm-603032f95462b6e2013a1d2f:1.0:bundle:pekwm,zenity
 phototonic-91e41d6f29b2f63486db713c:1.0:deps:libexiv2-dev,libqt5svg5-dev,qt5-image-formats-plugins,qtchooser
 phototonic-ae8273b9944dd130b226ff2c:1.0:bundle:phototonic,qt5-image-formats-plugins
 pip-1ab6023acca1aad8396e9dbb:1.3:bundle:dbus,libcairo2-dev,libdbus-1-dev,libgirepository1.0-dev,pkg-config,python3-all-dev,python3-pip,python3-venv
-pipewire-efbfd407e0e08ad5b2f1eb31:1.1:bundle:helvum,libspa-0.2-libcamera,pavucontrol,pipewire-audio,pipewire-jack,pnmixer|qasmixer,pulseaudio-utils,rtkit,wireplumber-doc
+pipewire-efbfd407e0e08ad5b2f1eb31:1.2:bundle:helvum,libspa-0.2-libcamera,pavucontrol,pipewire-audio,pipewire-jack,pnmixer|qasmixer,pulseaudio-utils,rtkit|without-rtkit-d41d8cd98f00b204e9800998,wireplumber-doc
 pixmap-editors-5a004e93aac83a3633ef1b64:1.0:bundle:kolourpaint,mtpaint,phototonic
 polly-b-gone-1a4caba65311eae0c8cc71ec:1.0:deps:libsdl-image1.2-dev,libsdl-mixer1.2-dev,libsdl1.2-dev,libtinyxml2-dev
 ptdescreen-c5d5e86b3343993b7cb6f693:1.0:deps:libfftw3-dev
@@ -229,6 +230,7 @@ without-opencv-doc-d41d8cd98f00b204e9800998:1.0:bundle:
 without-pstotext-d41d8cd98f00b204e9800998:1.0:bundle:
 without-quake-registered-d41d8cd98f00b204e9800998:1.0:bundle:
 without-quake2-full-data-d41d8cd98f00b204e9800998:1.0:bundle:
+without-rtkit-d41d8cd98f00b204e9800998:1.0:bundle:
 without-scrcpy-server-d41d8cd98f00b204e9800998:1.0:bundle:
 without-tesseract-ocr-deu-frak-d41d8cd98f00b204e9800998:1.0:bundle:
 without-tesseract-ocr-equ-d41d8cd98f00b204e9800998:1.0:bundle:
