@@ -98,6 +98,7 @@ gocryptfs-5e95af8b0c60de2e3c620d94:1.0:deps:debhelper,dh-golang,fuse,golang-any,
 gpg-clipboard-utility-058ffe12180248ff9d1ab321:1.0:deps:xclip
 gpu-dev-6a026817eb1ff7650d88bf61:1.0:bundle:amd-gpu-dev-746c16ab1fa11227a5caf513|without-amd-gpu-d41d8cd98f00b204e9800998,nvidia-gpu-dev-0f634cae1f775714f7e3b344|without-nvidia-gpu-d41d8cd98f00b204e9800998
 gpu-firmware-78e5fa233d0f416299e7d085:1.0:bundle:amd-gpu-9b258da1f21055767e513d9f|without-amd-gpu,intel-gpu-b60abd343481d6af96080670|without-intel-gpu-d41d8cd98f00b204e9800998,nvidia-gpu-9fbe8b21d26295e0e5e8c4c5|without-nvidia-gpu-d41d8cd98f00b204e9800998
+grub2-both-bios-efi-1f97b5941d1d2bf63b3030fc:1.0:bundle:grub-efi-amd64-bin,grub-pc-bin,grub-pc|grub-efi
 gtk-dev-7874018fcddf4db0ef25aa99:1.4:bundle:devhelp,glade,libcairo2-doc,libglib2.0-dev,libglib2.0-doc,libgtk-3-dev,libgtk-3-doc,libpango1.0-doc
 gtk-dev-perl-36f3099a9498d0c62ffefaa9:1.0:bundle:glade,libglib-perl,libglib2.0-doc,libgtk-3-doc,libgtk3-imageview-perl,libgtk3-perl,libgtk3-simplelist-perl,libgtk3-webkit2-perl,libpango1.0-doc
 gtk-sh-script-32bf39c78f1c295fa0541ce3:1.0:bundle:dialog,glade,libglib2.0-doc,libgtk-3-doc,libpango1.0-doc,ssft,zenity
