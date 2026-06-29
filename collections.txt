@@ -180,6 +180,7 @@ quake2-d4f227c438145a04f8eb37fa:1.2:bundle:quake2,quake2-full-data|without-quake
 raspberrypi-cross-compilation-bdeps-a0198aa10dec49b2ebec0e33:1.1:bundle:c-compiler-arm-linux-gnueabihf,libc-dev-armhf-cross,qemu-user
 recoll-6ab0e34cdb5b20275125f509:1.2:bundle:antiword,aspell-de,aspell-en,djvulibre-bin,ghostscript,groff,libimage-exiftool-perl,libinotifytools0,poppler-utils,pstotext|without-pstotext-d41d8cd98f00b204e9800998,python3-chardet,python3-chm,python3-icalendar,python3-lxml,python3-mido,python3-mutagen,python3-py7zr,python3-rarfile,recollcmd,unrtf,untex,wv,xdg-utils,xsltproc
 rpi-doc-build-f7dd31a79f97185cfce521d3:1.0:deps:make,ninja-build,python3,python3-pip,python3-yaml,ruby,ruby-dev
+rpi-utils-073c7c9fac125a6161cd2e44:1.0:bundle:rpi-eeprom,rpi-firefox-mods|without-firefox-d41d8cd98f00b204e9800998
 rust-dev-c2f6a666d7bf981917d5048c:1.0:bundle:cargo,cargo-doc
 scantailor-build-94d79bfcb6468cfe075bb956:1.2:deps:cmake,g++,gcc,libboost-test-dev,libjpeg-dev,libpng-dev,libpthread-stubs0-dev,libqt6opengl6-dev,libtiff-dev,qt6-svg-dev,qt6-tools-dev,qt6-tools-dev-tools
 scantailor-missing-d41d8cd98f00b204e9800998:1.0:bundle:
@@ -219,6 +220,7 @@ without-desktop-d41d8cd98f00b204e9800998:1.0:bundle:
 without-dict-bouvier-d41d8cd98f00b204e9800998:1.0:bundle:
 without-dict-moby-thesaurus-d41d8cd98f00b204e9800998:1.0:bundle:
 without-doom3-data-d41d8cd98f00b204e9800998:1.0:bundle:
+without-firefox-d41d8cd98f00b204e9800998:1.0:bundle:
 without-freecad-doc-d41d8cd98f00b204e9800998:1.0:bundle:
 without-fs-uae-launcher-d41d8cd98f00b204e9800998:1.0:bundle:
 without-gdb-doc-d41d8cd98f00b204e9800998:1.0:bundle:
