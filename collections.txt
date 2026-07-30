@@ -187,6 +187,7 @@ scantailor-missing-d41d8cd98f00b204e9800998:1.0:bundle:
 sci-py-4f29811fcaab097d2b9b3d26:1.1:bundle:python-scipy-doc,python3-numpydoc,python3-scipy
 screen-keyboard-wayland-d134609aa3b15d8f20d45900:1.0:bundle:wvkbd|squeekboard
 sdl-2-dev-e054a4b9d444175473d71ea6:1.1:bundle:libsdl2-doc,libsdl2-gfx-dev,libsdl2-gfx-doc,libsdl2-image-dev,libsdl2-mixer-dev,libsdl2-net-dev,libsdl2-ttf-dev
+slurm-68730d2ba074cd6befab41b6:1.0:bundle:slurm-wlm,slurm-wlm-doc,slurm-wlm-emulator
 snns-ebe344751cae0c3378defe08:1.3:deps:libxaw7-dev,libxt-dev,tcsh,xaw3dg-dev
 solokeys-a75b9b42f3d1730e68e980f5:1.0:deps:clang,gcc-arm-none-eabi,gdb-multiarch,git,libc6-dev,libclang-dev,libpcsclite-dev,llvm,python-is-python3,python3.13-venv
 solvespace-32107bf284bc528d409781f1:1.0:bundle:solvespace,unifont-bin,xfonts-unifont
@@ -198,6 +199,7 @@ stitching-33e973c8d98f741820c7df50:1.5:deps:libavif-dev,libopencv-dev,opencv-doc
 tageditor-5084157272a338e4b7b968a2:1.0:deps:qtdeclarative5-dev,qtwebengine5-dev
 temperature-sampling-fc613476bce443a426b5c982:1.0:deps:gawk,sqlite3
 tesseract-ocr-548664ff06157fe210d4fb27:1.0:bundle:tesseract-ocr,tesseract-ocr-deu,tesseract-ocr-deu-frak|without-tesseract-ocr-deu-frak-d41d8cd98f00b204e9800998,tesseract-ocr-eng,tesseract-ocr-equ|without-tesseract-ocr-equ-d41d8cd98f00b204e9800998,tesseract-ocr-frk,tesseract-ocr-osd,tesseract-ocr-script-frak
+textdiff-f0032b522a22abcabf0a3758:1.1:bundle:diffuse,diffutils,imediff,kdiff3,kompare,patchutils,tkcvs,wdiff,wiggle
 thunderbird-5993a4cb07863b81574a56f1:1.0:bundle:fonts-lyx,hunspell-de-at,hunspell-de-de,hunspell-en-us,thunderbird-l10n-de
 thunderbird-90a4a6d4ad682ea8f467ff60:1.0:bundle:birdtray,hunspell-de-at,hunspell-de-de,thunderbird-l10n-de,webext-mailmindr,webext-quicktext
 tor-d7d97b4547f46cbdee225665:1.0:bundle:tor,torsocks
@@ -211,6 +213,7 @@ vlc-video-gui-75635a08d7bb2b25d2d6c293:1.2:bundle:vlc,vlc-l10n,vlc-plugin-fluids
 vnc-7b850f9437e0ea0cfa7b9f55:1.0:bundle:ssvnc,tigervnc-standalone-server
 vobsub2srt-62f7d18bf11c67dd33be3987:1.0:deps:build-essential,cmake,libtesseract-dev,libtiff5-dev,pkg-config,tesseract-ocr-eng
 w3m-315d85e4e679ec756250553b:1.0:bundle:ca-certificates,w3m,w3m-img
+wayland-desktop-184fa277a4ebf3eaf4320689:1.0:bundle:foot,foot-themes,kanshi,labwc,mako-notifier,nwg-look,sway,sway-backgrounds,swaybg,swayidle,swaylock,waybar,wl-clipboard,wmenu,wofi
 web-browsers-901d1b4c96313dc71c4a7c7c:1.1:bundle:dillo,firefox|firefox-esr|chromium,midori|without-midori-d41d8cd98f00b204e9800998,netsurf-gtk,surf,web-browsers-textmode-086170fe58cb207908443b1e
 web-browsers-textmode-086170fe58cb207908443b1e:1.0:bundle:elinks,links2,w3m-img
 wine-0d99eb92575ffe1b422d4fca:1.0:bundle:ttf-mscorefonts-installer,wine
@@ -244,6 +247,7 @@ without-wayland-d41d8cd98f00b204e9800998:1.0:bundle:
 wren-1b6631959063a2d46a39718c:1.0:deps:python3-markdown,ruby-sass
 xapian-2edb573db7219aa26ec4fb26:1.1:bundle:xapian-doc,xapian-examples,xapian-omega,xapian-tools
 xcas-dfdb8acfde8a9c2373d33ec5:1.0:bundle:giac-doc,hevea,xcas
+xdg-menugen-build-ad021b10876b80e560d4ec81:1.0:bundle:libmenu-cache-dev
 xdgmenumaker-7acf2b30019a0f1dc1257259:1.2:deps:python3-gi,python3-pil,python3-xdg,txt2tags
 xfe-451d1151efb099b4a85b8bd9:1.0:bundle:wm-icons,xfe-i18n
 xgas-639156a60a7b60f23dbd29dd:1.0:deps:cpp,libice-dev,libsm-dev,libx11-dev,libxaw7-dev,libxext-dev,libxmu-dev,xutils-dev
