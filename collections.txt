@@ -129,7 +129,7 @@ lastlog-61ce23ab0d69c8b7505ed110:1.0:bundle:lastlog2,libpam-lastlog2
 ldap-acf4e4b45c7d09dce6aeedbd:1.0:bundle:cpu,ldap-utils,ldapvi,libnss-ldap,libpam-ldap,shelldap
 libav-700b4c9a15549ebc17484a5b:1.5:deps:frei0r-plugins-dev,libavresample-dev,libbz2-dev,libfdk-aac-dev,libfontconfig1-dev,libfreetype6-dev,libgsm1-dev,libmp3lame-dev,libopencore-amrnb-dev,libopencore-amrwb-dev,libopencv-dev,libspeex-dev,libtheora-dev,libvdpau-dev,libvo-amrwbenc-dev,libvorbisidec-dev,libvpx-dev,libx264-dev,libx265-dev,libxcb-shm0-dev,libxcb-xfixes0-dev,libxcb1-dev,yasm,zlib1g-dev
 libreoffice-146196d925b634d9be1a263f:1.5:bundle:cups-bsd,default-jre|jre,fonts-crosextra-caladea,fonts-crosextra-carlito,fonts-dejavu,fonts-liberation,fonts-liberation-sans-narrow,fonts-liberation2,fonts-linuxlibertine,fonts-noto-core,fonts-noto-extra,fonts-noto-mono,fonts-noto-ui-core,fonts-sil-gentium-basic,ghostscript,gnupg,gpa|without-gpa-d41d8cd98f00b204e9800998,gstreamer1.0-libav,gstreamer1.0-plugins-bad,gstreamer1.0-plugins-base,gstreamer1.0-plugins-good,gstreamer1.0-plugins-ugly,hunspell-de-at,hunspell-de-de,hunspell-en-us,hyphen-de,hyphen-en-us,imagemagick-dc2394056880d05018465d41,libreoffice,libreoffice-gtk3,libreoffice-help-de,libreoffice-l10n-de,libreoffice-librelogo,libreoffice-nlpsolver|without-libreoffice-nlpsolver-d41d8cd98f00b204e9800998,libreoffice-report-builder|without-libreoffice-report-builder-d41d8cd98f00b204e9800998,libreoffice-script-provider-python,libreoffice-sdbc-firebird,libreoffice-sdbc-postgresql,libsane1,mythes-de,mythes-en-us,openclipart-libreoffice,pstoedit,python3-access2base,unixodbc
-lightning-0244c1a23c5bba1af099f5f8:1.1:bundle:lightning-l10n-de,thunderbird-5993a4cb07863b81574a56f1,webext-dav4tbsync,xul-ext-timeline
+lightning-0244c1a23c5bba1af099f5f8:1.1:bundle:lightning-l10n-de,thunderbird-90a4a6d4ad682ea8f467ff60,webext-dav4tbsync,xul-ext-timeline
 lighttpd-b6af30ddcec7ed152a733af0:1.2:bundle:lighttpd,lighttpd-doc,lighttpd-mod-authn-pam,lighttpd-mod-authn-sasl,lighttpd-mod-deflate,lighttpd-mod-magnet,lighttpd-mod-openssl,lighttpd-mod-webdav,lighttpd-modules-lua,memcached
 llama-cpp-431fd48d919935ebcd7811c5:1.4:deps:bash,build-essential,c++-compiler,cmake,cpuinfo,glslang-tools,jq,libvulkan-dev,mesa-vulkan-drivers,ninja-build,vulkan-tools
 llvm-build-86f527e5032849b4e50e832e:1.0:deps:cmake,doxygen,ninja-build,python3-sphinx,python3-sphinx-rtd-theme,sphinx-doc
@@ -200,8 +200,7 @@ tageditor-5084157272a338e4b7b968a2:1.0:deps:qtdeclarative5-dev,qtwebengine5-dev
 temperature-sampling-fc613476bce443a426b5c982:1.0:deps:gawk,sqlite3
 tesseract-ocr-548664ff06157fe210d4fb27:1.0:bundle:tesseract-ocr,tesseract-ocr-deu,tesseract-ocr-deu-frak|without-tesseract-ocr-deu-frak-d41d8cd98f00b204e9800998,tesseract-ocr-eng,tesseract-ocr-equ|without-tesseract-ocr-equ-d41d8cd98f00b204e9800998,tesseract-ocr-frk,tesseract-ocr-osd,tesseract-ocr-script-frak
 textdiff-f0032b522a22abcabf0a3758:1.1:bundle:diffuse,diffutils,imediff,kdiff3,kompare,patchutils,tkcvs,wdiff,wiggle
-thunderbird-5993a4cb07863b81574a56f1:1.0:bundle:fonts-lyx,hunspell-de-at,hunspell-de-de,hunspell-en-us,thunderbird-l10n-de
-thunderbird-90a4a6d4ad682ea8f467ff60:1.0:bundle:birdtray,hunspell-de-at,hunspell-de-de,thunderbird-l10n-de,webext-mailmindr,webext-quicktext
+thunderbird-90a4a6d4ad682ea8f467ff60:1.1:bundle:birdtray,hunspell-de-at,hunspell-de-de,thunderbird-l10n-de
 tor-d7d97b4547f46cbdee225665:1.0:bundle:tor,torsocks
 uae-amiga-emulator-228a979ec442853d3fdea0d3:1.2:bundle:fs-uae-arcade,fs-uae-launcher|without-fs-uae-launcher-d41d8cd98f00b204e9800998
 untrunc-ffb255e70aa56b180d498512:1.0:deps:libavcodec-dev,libavformat-dev,libavutil-dev
